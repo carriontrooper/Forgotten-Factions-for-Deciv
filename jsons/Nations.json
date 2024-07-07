@@ -102,7 +102,7 @@
         "declaringWar": "My friends, let's bring our weapons and LET THE BLOOD SPILL!",
         "attacked": "BLOOD MUST SPILL!",
         "defeated": "I thank you for invading my land but please, don't kill my people.",
-        "introduction": "Hello, don't fear us. We are the Dandelion faction and were here for food.",
+        "introduction": "Hello, don't fear us. We are the Dandelion tribes and were here for food.",
         "neutralHello": "Hello!",
         "hateHello": "I hate you!",
         "tradeRequest": "My mind has said yes.",
@@ -170,30 +170,34 @@
 
 		"personality": "personalityType",
 
-        "startIntroPart1": "Elysium is a Democratic Republic, now and forever.",
-        "startIntroPart2": "- Article 1, Constitution of Elysium",
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-        "neutralHello": "",
-        "hateHello": "",
-        "tradeRequest": "",
+		"startIntroPart1": "Elysium is a Democratic Republic, now and forever.",
+		"startIntroPart2": "- Article 1, Constitution of Elysium",
+        "declaringWar": "You would continue to deny others freedom. We're going to rectify that.",
+		"attacked": "You will come to regret your aggression soon enough.",
+		"defeated": "The fall of Elysium is a crushing blow to all free men. It is a terrible loss for all humanity.",
+		"introduction": "Greetings. I am Nobel, the Chancellor of Elysium, and I hope that I can call you a friend to my nation.",
+		"neutralHello": "Good day.",
+		"hateHello": "Well?",
+		"tradeRequest": "Now, on to business then.",
 
         "outerColor": [36, 57, 90],
         "innerColor": [255, 255, 255],
         "uniqueName": "Land of the Free, Home of the Brave",
         "uniques": [
-            "Starts with [Constitution] adopted",
-            "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
-            "[+50]% Production when constructing [Military] units [in all non-occupied cities] <when at war>",
-            "[-20]% Production when constructing [Building] buildings [in all non-occupied cities] <when at war>",
-            "Cannot build [Enslaved] units",
+		"Starts with [Constitution] adopted",
+		"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
+		"[-15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+		"[+15]% Production when constructing [Military] units [in all non-occupied cities] <when at war>",
+		"[Gold] cost of purchasing [Military] units [-15]% <when at war>",
+		"Cannot build [Enslaved] units",
+		"Comment [Cannot build Prison Camp, Work Camp, or Council buildings]"
 
             // Fake uniques to help understand the nation
-            "Comment[Cannot build buildings consuming [Slaves] except [Refugee Center]]",
-            "Comment[Cannot build [Council]]",
-            "Comment[Cannot build [Listening Post]]"
+		/*
+            "Comment [Cannot build buildings consuming [Slaves] except [Refugee Center]]",
+            "Comment [Cannot build [Council]]",
+            "Comment [Cannot build [Listening Post]]"
+		*/
         ],
         "cities": [
             "Elysium",
@@ -219,18 +223,7 @@
             "Vibrance",
             "Clemency"
         ],
-		"spyNames": [
-			"Agent Liberty",
-			"Agent Unity",
-			"Agent Duty",
-			"Agent Justice",
-			"Agent Honor",
-			"Agent Courage",
-			"Agent Diligence",
-			"Agent Clemency",
-			"Agent Endeavour",
-			"Agent Excellence"
-		],
+		"spyNames": ["Eliza", "Antonia", "Benjamin", "Olivia", "Alexis", "Astor", "Walter", "Irene", "Jefferson", "Carol"],
         "civilopediaText": [
             {
                 "text": "Elysium is a Democratic Republic."
@@ -275,15 +268,15 @@
             "[-1 Science][in all cities]<before discovering [Education]>"
         ],
         "cities": [
-            "North City",
-            "Sphinx Station",
-            "New London",
-            "Arbat Station",
-            "Gravel Beach Harbour",
-            "South Station",
-            "Hard Luck",
-            "Proxima Hub",
-            "Trench-line Outpost",
+			"North City",
+			"Sphinx Station",
+			"New London",
+			"Arbat Station",
+			"Gravel Beach Harbour",
+			"South Station",
+			"Hard Luck",
+			"Proxima Hub",
+			"Trench-line Outpost",
 			"Bauxite Express",
 			"Catacomb Rail",
 			"Dirt Line",
