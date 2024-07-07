@@ -1,3 +1,17 @@
 [
+	// Central State
+	{
+	"name": "Protector of the People",
+	"unique": [
+		"[+15]% Strength <in [Friendly Land] tiles>", 
+		"Damage is ignored when calculating unit Strength",
+		"[+20]% Strength <when below [100] HP>"
+	]
+	}
+
+	// Gestalt
+	// todo: Hive Mind
 	
+	// The Wild
+	// todo: all the Totems
 ]
