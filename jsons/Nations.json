@@ -126,31 +126,43 @@
 			"[+1 Food] from every [Plankton]"
         ],
         "cities": [
-            "Great Cave",
-            "League of Horses",
-            "Mindstorm",
-            "Great Plantation",
-            "Bluerock",
-            "Yellowrust",
-            "Darksky",
-            "Illflower",
-            "Granary-by-the-Sea",
-            "Spearhead",
-            "Brokenscrap",
-            "Greenstatue",
-            "Warmist",
-            "Cattle Horde",
-            "Hyperstimulus",
-            "Coastal Campsite",
-            "School-of-Thought",
-            "Goathill",
-            "Glowing Mushrooms"
-        ]
+			"Great Cave",
+			"League of Horses",
+			"Mindstorm",
+			"Great Plantation",
+			"Bluerock",
+			"Yellowrust",
+			"Darksky",
+			"Illflower",
+			"Granary-by-the-Sea",
+			"Spearhead",
+			"Brokenscrap",
+			"Greenstatue",
+			"Warmist",
+			"Cattle Horde",
+			"Rainbow Hill",//"Hyperstimulus",
+			"Coastal Campsite",
+			"School-of-Thought",
+			"Goathill",
+			"Glowing Mushrooms"
+        ],
+		"spyNames": [
+			"Daffodil",
+			"Lily",
+			"Crysanthemum",
+			"Jasmine",
+			"Rose",
+			"Azalea",
+			"Lavender",
+			"Aniseed",
+			"Sunflower",
+			"Nightshade"
+		]
     },
 
 	{
         "name": "Elysium",
-        "leaderName": "The Chancellor",
+        "leaderName": "Chancellor Nobel",
         "adjective": ["Elysian"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
@@ -158,15 +170,15 @@
 
 		"personality": "personalityType",
 
-        "startIntroPart1": "Elysium is a Democratic Republic.",
+        "startIntroPart1": "Elysium is a Democratic Republic, now and forever.",
         "startIntroPart2": "- Article 1, Constitution of Elysium",
-        // "declaringWar": "",
-        // "attacked": "",
-        // "defeated": "",
-        // "introduction": "",
-        // "neutralHello": "",
-        // "hateHello": "",
-        // "tradeRequest": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
 
         "outerColor": [36, 57, 90],
         "innerColor": [255, 255, 255],
@@ -179,9 +191,9 @@
             "Cannot build [Enslaved] units",
 
             // Fake uniques to help understand the nation
-            "Cannot build buildings consuming [Slaves] except [Refugee Center]",
-            "Cannot build [Council]",
-            "Cannot build [Listening Post]"
+            "Comment[Cannot build buildings consuming [Slaves] except [Refugee Center]]",
+            "Comment[Cannot build [Council]]",
+            "Comment[Cannot build [Listening Post]]"
         ],
         "cities": [
             "Elysium",
@@ -207,6 +219,18 @@
             "Vibrance",
             "Clemency"
         ],
+		"spyNames": [
+			"Agent Liberty",
+			"Agent Unity",
+			"Agent Duty",
+			"Agent Justice",
+			"Agent Honor",
+			"Agent Courage",
+			"Agent Diligence",
+			"Agent Clemency",
+			"Agent Endeavour",
+			"Agent Excellence"
+		],
         "civilopediaText": [
             {
                 "text": "Elysium is a Democratic Republic."
@@ -271,7 +295,19 @@
 			"Undermountain",
 			"Sulphur Express",
 			"Iron Line"
-        ]
+        ],
+		"spyNames": [
+			"Spy1",
+			"Spy2",
+			"Spy3",
+			"Spy4",
+			"Spy5",
+			"Spy6",
+			"Spy7",
+			"Spy8",
+			"Spy9",
+			"Spy10"
+		]
     },
 
 	{
@@ -324,20 +360,18 @@
 			"Xingtai",
 			"Handan"
 		]
-		/*
 		"spyNames": [
-			"Spy1",
-			"Spy2",
-			"Spy3",
-			"Spy4",
-			"Spy5",
-			"Spy6",
-			"Spy7",
-			"Spy8",
-			"Spy9",
-			"Spy10"
+			"Comrade Xia",
+			"Comrade Shang",
+			"Comrade Zhou",
+			"Comrade Qin",
+			"Comrade Han",
+			"Comrade Wei",
+			"Comrade Jin",
+			"Comrade Song",
+			"Comrade Qi",
+			"Comrade Chen"
 		]
-		*/
 	},
 	
 	{
@@ -400,20 +434,18 @@
 			"Yilan",
 			"Toufen"
 		]
-		/*
 		"spyNames": [
-			"Spy1",
-			"Spy2",
-			"Spy3",
-			"Spy4",
-			"Spy5",
-			"Spy6",
-			"Spy7",
-			"Spy8",
-			"Spy9",
-			"Spy10"
+			"Blue Tiger",
+			"White Lily",
+			"Green Bamboo",
+			"Yellow Deer",
+			"Orange River",
+			"Purple Cloud",
+			"Black Lotus",
+			"Sepia Leaf",
+			"Maroon Moon",
+			"Magenta Mountain"
 		]
-		*/
 	},
 
 	{
