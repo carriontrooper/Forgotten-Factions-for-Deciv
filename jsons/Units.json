@@ -1,3 +1,223 @@
 [
-	
+	// Dandelion
+	{
+    "name": "Nomadic Archer",
+    "uniqueTo": "Dandelion",
+    "replaces": "Crossbowman",        
+    "unitType": "Shooter",
+    "cost": 30,
+    "movement": 2,
+    "strength": 17,
+    "rangedStrength": 16,
+    "range": 2,
+       "requiredTech": "Iron Working",
+       "obsoleteTech": "Rifling",
+       "upgradesTo": "Gunman",
+       "hurryCostModifier": 40,
+       "uniques": [
+           "Low Tech",
+           "[+33]% Strength <vs [Low Tech] units>",
+           "[+1] Sight"
+        ],
+        "attackSound": "arrow"
+
+   },
+	{
+		"name": "Clubber",
+		"unitType": "Scrapper",
+		"uniqueTo": "Dandelion",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 20,
+		"cost": 20,
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Militia",
+		"uniques": [
+			"Low Tech",
+			"[+25]% Strength <vs [Personnel] units>"
+		],
+		"promotions": ["Forage"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Horse Rider",
+		"uniqueTo": "Dandelion",
+		"replaces": "Horseman",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 20,
+		"cost": 50,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Hussar",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+
+	// Elysium
+	{
+        "name": "Medic",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Elysium",
+		"unitType": "Shooter",
+		"cost": 35,
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 20,
+		"range": 2,
+		"interceptRange": 1,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Support",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>",
+			"[-1] Sight"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Support",
+		"replaces": "Conscript",
+		"uniqueTo": "Elysium",
+		"unitType": "Shooter",
+		"cost": 60,
+		"movement": 2,
+		"strength": 24,
+		"rangedStrength": 30,
+		"range": 2,
+		"interceptRange": 1,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "NBC Support",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>",
+			"[-1] Sight"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "NBC Support",
+		"replaces": "NBC Conscript",
+		"uniqueTo": "Elysium",
+		"unitType": "Shooter",
+		"cost": 125,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 35,
+		"range": 2,
+		"interceptRange": 1,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Black Ops",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"Only available <if [Factory] is constructed>",
+			"All adjacent units heal [+10] HP when healing <in [Friendly Land] tiles>"
+		],
+		"promotions": ["Gas Mask"],
+		"attackSound": "shot"
+	},
+
+	// The Confederacy
+	{
+		"name":"Gate Guard",
+		"uniqueTo":"The Confederacy",
+		"strength":36,
+		"movement":2,
+		"cost":65,
+		"unitType":"Scrapper"
+		"promotions":[
+			"Urban Warfare I",
+			"Tear Gas",
+			"Pride"
+		]
+		"uniques":[
+			"Personnel",
+			"Excess Food converted to Production when under construction <when at war>", 
+			"Consumes [1] [Weapons]" 
+		]
+	},
+
+	// Central State
+	{
+    "name": "Communist Vanguard", 
+    "replaces": "NBC Infantry",
+    "uniqueTo": "The Central State", 
+    "unitType": "Scrapper",
+    "interceptRange": 1, 
+    "movement": 2,
+    "strength": 52,
+    "cost": 300,
+    "requiredTech": "Plastics", 
+    //"upgradesTo": "", 
+    "uniques": [
+                "Personnel",
+                "Consumes [2] [Weapons]",
+                "Never appears as a Barbarian unit",
+                "Limited to [8] per Civilization", 
+                "Only available <in cities with a [Armaments Production Line]>", 
+                "[+10]% Strength <vs [Military] units> <in [Foreign Land] tiles>"
+               ], 
+   "promotions": ["Gas Mask", 
+                 "Protector of the People"], 
+   "attackSound": "shot"
+}, 
+{
+  "name": "Recovered Dongfei Missiles", 
+  "replaces": "Nuclear Missile", 
+  "unique to": "The Central State", 
+  "unitType": "Missile", 
+  "range": 20,
+  "strength": 300, 
+  "rangedStrength": 300,
+  "cost": 800,
+  "requiredTech": "Rocketry", 
+  //"upgradesTo": "", 
+  "unique": [
+             "Only available if [Manhattan Project] is constructed", 
+             "Consumes [2] [Uranium]"
+            ], 
+  "blastRadius": 2,
+  "nuclearWeaponOfStrength": 2
+},
+
+	// Blue Sun
+	// todo: Volunteer Reclaimer and Landing Craft
+
+	// Gestalt
+	/*
+	todo:
+	Defender Unit: comes in tiers, can transform into their respective Attacker Unit, more strength when defending when next to other ally units
+	Attacker Unit: comes in tiers, can transform into their respective Defender Unit, more strength when attacking when next to other ally units
+	Coordinator Unit: replaces great general, boosts even more than GG
+	*/
+
+	// The Wild
+	/*
+	todo:
+	+ Totem units: more strength per Totem promos they have
+	Totem Warrior
+	Totem Archer
+	Totem Rider
+	Totem Thunderstick
+	Totem Bow Rider
+	Totem Thunderstick Rider
+	Totem Gunner
+	Totem Gun Rider
+	*/
 ]
