@@ -1,3 +1,16 @@
 [
-	
+	{
+		"name": "Decryption Analysis Center",
+		"turnsToBuild": 7,
+		"techRequired": "Decryption",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+3 Science] <after discovering [Artificial Intelligence]>",
+			"Can only be built to improve a resource",
+			"Improves [Encrypted Data] resource in this tile",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "H"
+	}
 ]
