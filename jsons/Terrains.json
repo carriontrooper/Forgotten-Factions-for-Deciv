@@ -1,3 +1,75 @@
 [
-	
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [30] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Becomes [Desert Mountain] when adjacent to [Desert]",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{
+		"name": "Desert Mountain",
+		"type": "TerrainFeature",
+		"impassable": true,
+		"unbuildable": true,
+		"occursOn": [
+			"Mountain" 
+		],
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Mountain",
+			"Rough terrain",
+			"Elevated",
+			"Has an elevation of [4] for visibility calculations",
+			"Must be adjacent to [3] to [6] [Desert] tiles",
+			"Must be adjacent to [0] to [4] [Desert Mountain] tiles",
+			"Units ending their turn on this terrain take [30] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{
+		"name": "Pre-war Antenna",
+		"type": "TerrainFeature",
+		"movementCost": 1.5,
+		"production" : 2,
+		"unbuildable": true,
+		"defenceBonus": 0.1,
+		"occursOn": [
+			"Mountain",
+			"Hill"
+		],
+		"uniques": [
+			"Rare feature",
+			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
+		]
+	},
+	{
+		"name": "Sea Nursery",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food" : 1,
+		"unbuildable": true,
+		"occursOn": [
+			"Coast" 
+		],
+		"uniques": [
+			"Rare feature"
+		],
+		"civilopediaText": [
+			{
+				"text": "This coastal area seems to be relatively untouched by the course of the events nor by toxic currents, resulting in a paradise for sea fauna and flora."
+			}
+		]
+	},
 ]
