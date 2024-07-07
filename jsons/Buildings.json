@@ -1,3 +1,492 @@
 [
-	
+	//// Capital Uniques
+	// Dandelion
+	{
+        "name": "Cave of Unity",
+        "isWonder": true,
+        "uniqueTo": "Dandelion",
+        "cost": 1,
+        "uniques": [
+            "Can only be built [in capital]",
+            "[+1 Science] [in capital]",
+            "[+2 Happiness] [in all cities]",
+            "Provides [1] [Exotic Seeds]",
+			"Automatically built in all cities where it is buildable"
+        ],
+		"quote": "United by banner, seperated by disorder.",
+		"civilopediaText": [
+			{
+				"text": "United by banner, separated by disorder."
+			}
+		]	
+    },
+
+	// Elysium
+	{
+		"name": "Constitution of Elysium",
+		"isWonder": true,
+		"uniqueTo": "Elysium",
+		"cost": 0,
+		"uniques": [
+			"[+1 Culture] from every specialist [in this city]",
+			"[2] free [Medic] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Stele of Constitution] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "The sovereignty of Elysium resides in the people,\nand all political power emanates from the people.\n- Article 2, Constitution of Elysium",
+		"civilopediaText": [
+			{
+				"text": "The sovereignty of Elysium resides in the people,\nand all political power emanates from the people."
+			},
+			{
+				"text": "- Article 2, Constitution of Elysium"
+			}
+		]
+	},
+
+	// The Confederacy
+	{
+		"name": "The Old Underground",
+		"isWonder": true,
+		"uniqueTo": "The Confederacy",
+		"cost": 1,
+		"cityHealth": 10,
+		"production": 1,
+		"food": 1,
+		"culture": 1,
+		"uniques": [
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Can only be built [in capital]",
+			"Provides [1] [Weapons]",
+			"Free [Gate Guard] appears",
+			"Gain a free [Underground Town] [in this city]",
+			"Gain a free [Gate] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "In my end is my beginning... - Thomas Stern Eliot"
+	},
+
+	// Central State
+	{
+    	"name": "Forbidden Palace", 
+    	"isWonder": "true", 
+    	"uniqueTo": "The Central State", 
+    	"happiness": 2,
+    	"cost": 1,
+		"greatPersonPoints": {"Great Administrator": 1},
+    	"uniques": [
+			"[-15]% Unhappiness from [Population] [in all cities]", 
+			"[+2 Gold]", 
+			"Provides [2] [Weapons]", 
+			"Free [Communist Vanguard] appears",
+		], 
+    	"quote": "After the Great Catastrophe, we have found the Forbidden City - once the seat of government in the Ming and Qing Dynasty - now occupied by cannibals and bandits. But after years of restoration and refurbishing, it is finally repaired completely, and now open to the people and the seat of Communism in the east.", 
+
+		"civiliopediaText": [
+               {
+                   "text": "After the Great Catastrophe, we have found the Forbidden City - once the seat of government in the Ming and Qing Dynasty - now occupied by cannibals and bandits. But after years of restoration and refurbishing, it is finally repaired completely, and now open to the people and the seat of Communism in the east.", 
+               }, 
+		] 
+	},
+
+	// Blue Sun
+	// todo: Expansion Yuan, military and border expansion oriented
+
+	// Gestalt
+	// todo: Mental Engine, +science and +culture, better unit defense in friendly lands
+
+	// The Wild
+	// todo: Ancestral Totem, +culture and +faith, addtional bonuses when other Totem buildings are built
+
+	//// Uniques
+	// Dandelion
+	{
+		"name": "Hunter's Bazaar",
+		"replaces": "Market",
+		"uniqueTo": "Dandelion",
+		"happiness": 1,
+		"food": 2,
+		"requiredTech": "Trade",
+		"uniques": ["[+2 Gold] from [Luxury resource] tiles [in this city]"]
+
+	},
+	{
+		"name": "Natural Harmony Teachings",
+		"replaces": "University",
+		"uniqueTo": "Dandelion",
+		"maintenance": 1,
+		"hurryCostModifier": 20,
+		"percentStatBonus": { "science": 30 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] [in this city] <with [Power]>",
+			"Provides [1] [Exotic Seeds]",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+
+	// Elysium
+	{
+		"name": "Elysian Parliament",
+		"replaces": "Congress",
+		"uniqueTo": "Elysium",
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+            "[+25]% Great Person generation [in all cities connected to capital]",
+			"[+10]% growth [in all cities connected to capital]",
+			"[-5]% Unhappiness from [Population] [in all cities connected to capital]",
+			"[+25]% Production towards any buildings that already exist in the Capital",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Stele of Constitution",
+		"replaces": "Monument",
+		"uniqueTo": "Elysium",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"requiredTech": "Construction",
+		"uniques": [
+			"[+1 Happiness] per [8] population [in this city]",
+			"Can only be built <in cities connected to the capital>",
+			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{
+				"text": "This grand monument has the entire Constitution of Elysium inscribed onto it. The law requires every city to have this Stele erected at an easily accessible place."
+			}
+		]
+	},
+	{
+		"name": "Court",
+		"uniqueTo": "Elysium",
+		"hurryCostModifier": 25,
+		"culture": 1,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Replaces Prison Camp without being treated as Prison Camp]",
+			"Remove extra unhappiness from annexed cities",
+			"Only available <in cities with a [Stele of Constitution]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Immigration Office",
+		"uniqueTo": "Elysium",
+		"percentStatBonus": {"culture": 15},
+		"culture": 1,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": [
+			"Comment [Replaces Work Camp without being treated as Work Camp]",
+			"[+1] population [in this city]",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Citizen Info Center",
+		"replaces": "Listening Post",
+		"uniqueTo": "Elysium",
+		"maintenance": 1,
+		"culture": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"[-20]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Civil Service"
+	},
+
+	{
+		"name": "Elysium cannot build Council",
+		"replaces": "Council",
+		"uniqueTo": "Elysium",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Elysium cannot build Prison Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Elysium",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Elysium cannot build Work Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "Elysium",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	}
+
+	// The Confederacy
+	{
+		"name": "Underground Town",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Town Hall",
+		"cost": 70,
+		"cityHealth": 10,
+		"production": 1,
+		"food": 2,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Unlocks Underground Buildings",
+			"Unsellable",
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
+			"Only available <with [Underground]>",
+			"[+20]% Culture cost of natural border growth [in this city]",
+			"[+20]% Gold cost of acquiring tiles [in this city]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+1 Happiness, +1 Culture] [in this city] <with [Power]>"
+		], 
+		"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
+			}
+		]
+	},
+	{
+		"name": "Fungus Farm",
+		"uniqueTo": "The Confederacy",
+		"cost": 70,
+		"food": 1,
+		"specialistSlots": { "Farmer": 2 },
+		"uniques": [
+			"Provides [1] [Fungus]",
+			"Provides [1] [Fungal Tea] <after discovering [Referigeration]>",
+			"Only available <in cities with a [Underground Town]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+		/*"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
+			}
+		]*/
+	},
+	{
+		"name": "Gate",
+		"uniqueTo": "The Confederacy",
+		"cost": 70,
+		"cityStrength": 20,
+		"replaces":"Walls"
+		"uniques": [
+			"Only available <in cities with a [Underground Town]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+		/*"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
+			}
+		]*/
+	},
+	{
+		"name": "Mountain Mine Network",
+		"uniqueTo": "The Confederacy",
+		"cost": 100,
+		"cityStrength": 20,
+		"production": 2,
+		"uniques": [
+			"Must be next to [Mountain] tiles",
+			"Only available <in cities with a [Underground Town]>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+		/*"civilopediaText": [
+			{
+				"text": "Every city in the Confederacy is characterised by underground quarters: in those develop the main political and civilian buildings. - <i>About the Use and Costume of Northen Folks</i> "
+			}
+		]*/
+	},
+	{
+		"name": "City Congress",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"[-20]% Culture cost of natural border growth [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "War Meeting Room",
+		"uniqueTo": "The Confederacy",
+		"replaces": "Council",
+		"cost": 20,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Can only be built [in capital]",
+			"Only available <in cities with a [City Congress]> <when at war>",
+			"[+15]% Production when constructing [All] units [in all cities]<when at war>",
+			"[-10]% Culture from [City Congress] [in all cities]<when at war>",
+			"[-5]% Production when constructing [All] buildings [in all cities]<when at war>",
+			"Destroyed when the city is captured"
+		],
+		"maintenance":3
+	},
+
+	// Central State
+	{
+		"name": "Heavy Industry Factory", 
+		"replaces": "Factory", 
+		"uniqueTo": "The Central State",
+		"specialistSlots": { "Engineer": 3 },
+		"cost": 250,
+		"production": 4,
+		"hurryCostModifier": 25,
+		"maintenance": 3, 
+		"uniques": [
+			"[+30]% Production [in this city]", 
+			"[+10]% Production towards [Buildings] <when not at war>", 
+			"[+10]% Production towards [Armor] <when at war>", 
+			"[-20]% [Food]",
+			"Consumes [2] [Power]", 
+			"Only available <in cities with a [Library]>", 
+			"[+1 Production] [in this city] <with [Machine Parts]>", 
+			"[+1 Production] from every [Machine Parts] tiles <in this city>", 
+			"[+3 Production] [in this city] <with [Power]>", 
+		], 
+		"requiredTech": "Manufacturing", 
+    }, 
+	{
+    "name": "Reeducation Camp", 
+    "replaces": "Prison Camp", 
+    "uniqueTo": "The Central State", 
+    "cost": 30, 
+    "food": -2, 
+    "culture": -1, 
+    "happiness": 3,
+    "hurryCostModifier": 25, 
+    "uniques": [
+                "Provides [1] [Slaves]", 
+                "Only available <in cities without a [Listening Post]>", 
+                "Destroyed when the city is captured", 
+                "Can only be built [in annexed cities]", 
+                "Remove extra unhappiness from annexed cities", 
+                "[+1 Science] per [3] population [in this city]", 
+     ], 
+    "requiredTech": "Construction", 
+	}, 
+	{
+    "name": "Hall Of The People", 
+    "replaces": "Congress", 
+    "uniqueTo": "The Central State",
+	"greatPersonPoints": {"Great Administrator": 2},
+    "cost": 100, 
+    "hurryCostModifier": 25,
+    "uniques": [
+                "[+1 Culture] per [4] population [in all cities]", 
+                "[+1 Happiness] per [2] social policies adopted", 
+                "Can only be built [in capital]", 
+                "Only available <in cities without a [Inner Palace Chamber]>",
+                "Destroyed when the city is captured", 
+     ], 
+    "requiredTech": "Civil Service", 
+	}, 
+	{
+    "name": "Inner Palace Chamber", 
+    "replaces": "Council", 
+    "uniqueTo": "The Central State", 
+    "cost": 50, 
+    "hurryCostModifier": 25, 
+    "uniques": [
+                "[+20]% Production towards [Siege] [in capital]", 
+                "[+10]% Production towards [Armor] [in capital]",
+                "[+1 Gold] from each Trade Route", 
+                "Can only be built [in capital]", 
+                "Only available <in cities without a [Hall Of The People]>", 
+                "Destroyed when the city is captured", 
+    ], 
+    "requiredTech": "Civil Service", 
+	},
+
+	// Blue Sun
+	/*
+	todo:
+	Expeditionary Base: military building, boosts military unit production
+	Microchip Factory: late game gold and science booster, only available with metal, makes microchip luxury
+	Coalition Parliament: congress replacement, focus towards general production and negating unhappiness
+	Military Tribunal: council replacement, focus towards unit production and defense
+	*/
+
+	// Gestalt
+	/*
+	todo:
+	Assimilation Clinic: Hospital replacement, +culture per pop in city
+	Assimilate Survivors: +great people generation, +1 pop in all cities
+	Assimilate Isolationists: Isolated Island wonder replacement, +science per pop in city
+	Assimilate Slaves: replaces prison camp, +production per pop in city, still requires slaves
+	Mind Node: Monument replacement, +science
+	Resonance Node: listening post replacement, even less enemy spy effectiveness
+	Nutrient Facility: Food Store replacement, +food per pop in city
+	Gestalt Complexity: congress replacement, +science and +culture per pop in city
+	Gestalt Optimization: council replacement, +production and +gold per pop in city
+	*/
+
+	// The Wild
+	/*
+	todo:
+	+ totems: these grant promotions
+	Horse Totem: +food, new units built in this city gets +1 movement on open terrain, only available with horses
+	Goat Totem: +food, new units built in this city gets +1 movement on rough terrain, only available with goats
+	Frog Totem: +gold, +gold on rivers/lakes, new units built in this city gets amphibious promotion, only available with river/lake
+	Bull Totem: +general production, new units built in this city gets extra strength when defending, only available with cattle
+	Insect Totem: +gold, new units built in this city do not get terrain maluses, only available with insects
+	Scorpion Totem: +gold, new units built in this city gets more strength in toxic tiles, only available with hostile fauna
+	Deer Totem: +food, new units built in this city gain evasion, only available with deer
+	Boar Totem: +food, new units built in this city gain flanking bonus, only available with hogs
+	Jellyfish Totem: +culture, new units built in this city gets +1 movement when embarked, only available with jellyfish and on coastal city
+	Rat Totem: +culture, new units built in this city gets more strength on rubble/ruin tiles, only available with furs
+
+	Owl Totem: +science, new units built in this city gets +1 sight, replaces Library
+	Wolf Totem: +military unit production, new units built in this city gets extra strength when attacking
+	Hawk Totem: new ranged units built in this city gets +1 sight, more strength when attacking
+	Spirit Totem: replaces monument, +faith
+
+	Court of Shamans: replaces congress, +faith per totem in this city
+	Court of Warriors: replaces council, +military unit production
+	*/
+
+	//// Misc Buildings
+	{
+		"name": "Irrigation System",
+		"cost": 180,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Fresh Water] tiles",
+			"[+1] food from [Farm] tiles [in this city]"
+		],
+		"requiredTech": "Engineering"
+	}
 ]
