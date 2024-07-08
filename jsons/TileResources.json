@@ -1,3 +1,17 @@
 [
-	
+	{
+	    "name" : "Sea Fauna", 
+	    "terrainsCanBeFoundOn" : ["Sea Nursery"], 
+	    "improvement" : "Fishing Boats",
+	    "improvementStats" : {"science": 1, "food": 1} 
+    },
+    {
+        "name": "Underground Space",
+        "resourceType":"Bonus",
+        "terrainsCanBeFoundOn": ["Jungle", "Forest"]
+    },
+	{
+		"name": "Fungal Tea",
+		"resourceType": "Luxury"
+	}
 ]
