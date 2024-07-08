@@ -164,6 +164,11 @@
 			"[+1 Culture] <if [Jellyfish Totem] is constructed in at least [1] of [Your] cities>",
 			"[+1 Culture] <if [Rat Totem] is constructed in at least [1] of [Your] cities>",
 			"[+1 Production] <if [Bull Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Production] <if [Wolf Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Production] <if [Hawk Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Science] <if [Owl Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Faith] <if [Spirit Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Faith] <if [Secret Totem] is constructed in at least [1] of [Your] cities>",
 			"Can only be built <in [Capital] cities>",
 			"Automatically built in all cities where it is buildable"
 		],
@@ -797,6 +802,90 @@
 			"Totem",
 			"All newly-trained [relevant] units [in this city] receive the [Goat Totem Spirit] promotion",
 			"Only available <within [3] tiles of a [Goat]>"
+		]
+	},
+	{
+		"name": "Deer Totem",
+		"uniqueTo": "The Wild",
+		"food": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Deer Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Deer]>"
+		]
+	},
+	{
+		"name": "Boar Totem",
+		"uniqueTo": "The Wild",
+		"food": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Boar Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Hogs]>"
+		]
+	},
+	{
+		"name": "Frog Totem",
+		"uniqueTo": "The Wild",
+		"gold": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Frog Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [River]>"
+		]
+	},
+	{
+		"name": "Beetle Totem",
+		"uniqueTo": "The Wild",
+		"gold": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Beetle Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Insects]>"
+		]
+	},
+	{
+		"name": "Scorpion Totem",
+		"uniqueTo": "The Wild",
+		"gold": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Scorpion Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Hostile Fauna]>"
+		]
+	},
+	{
+		"name": "Jellyfish Totem",
+		"uniqueTo": "The Wild",
+		"culture": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Jellyfish Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Jellyfish]>"
+		]
+	},
+	{
+		"name": "Rat Totem",
+		"uniqueTo": "The Wild",
+		"culture": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Rat Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Furs]>"
 		]
 	},
 	{
