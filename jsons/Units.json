@@ -231,7 +231,7 @@
 		"range": 1,
 		"cost": 60,
 		"obsoleteTech": "Steam Power",
-		"upgradesTo": "Gunboat",
+		//"upgradesTo": "Gunboat",
 		"uniques": [
 			"Cannot enter ocean tiles",
 			"Can move after attacking",
@@ -456,7 +456,7 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Ultimate Defense Unit",
+		"name": "Ultimate Defensive Unit",
 		"unitType": "Scrapper",
 		"replaces": "Exo-Trooper",
 		"uniqueTo": "Gestalt",
@@ -481,7 +481,7 @@
 		"attackSound": "phasers"
 	},
 	{
-		"name": "Ultimate Offense Unit",
+		"name": "Ultimate Offensive Unit",
 		"unitType": "Scrapper",
 		"uniqueTo": "Gestalt",
 		"movement": 2,
