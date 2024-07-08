@@ -1,20 +1,129 @@
 [
 	// Dandelion
 	// todo: Loner
+	{
+		"name": "Loner",
+		"unique": [
+			"[-10]% Strength <when adjacent to [{Dandelion} {Military}] unit>"
+		]
+	},
 	
 	// Central State
 	{
-	"name": "Protector of the People",
-	"unique": [
-		"[+15]% Strength <in [Friendly Land] tiles>", 
-		"Damage is ignored when calculating unit Strength",
-		"[+20]% Strength <when below [100] HP>"
-	]
-	}
+		"name": "Protector of the People",
+		"unique": [
+			"[+15]% Strength <in [Friendly Land] tiles>", 
+			"Damage is ignored when calculating unit Strength",
+			"[+20]% Strength <when below [100] HP>"
+		]
+	},
+
+	// Blue Sun
+	{
+		"name": "Volunteer Reclamator",
+		"unique": [
+			"[+15]% Strength <in [Enemy Land] tiles>",
+			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>"
+		]
+	},
 
 	// Gestalt
 	// todo: Hive Mind
+	{
+		"name": "Hive Mind",
+		"unique": [
+			"[+10]% Strength <when adjacent to [{Gestalt} {Military}] unit>"
+		]
+	},
 	
 	// The Wild
 	// todo: all the Totems
+	{
+		"name": "Ghillie Suit",
+		"unique": [
+			"Invisible to non-adjacent units"
+		]
+	},
+	{
+		"name": "Horse Totem Spirit",
+		"unique": [
+			"[+1] Movement <in [Open terrain] tiles>"
+		]
+	},
+	{
+		"name": "Goat Totem Spirit",
+		"unique": [
+			"[+1] Movement <in [Rough terrain] tiles>"
+		]
+	},
+	{
+		"name": "Deer Totem Spirit",
+		"unique": [
+			"Withdraws before melee combat <with [20]% chance>"
+		]
+	},
+	{
+		"name": "Boar Totem Spirit",
+		"unique": [
+			"[+10]% to Flank Attack bonuses"
+		]
+	},
+	{
+		"name": "Frog Totem Spirit",
+		"unique": [
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast"
+		]
+	},
+	{
+		"name": "Beetle Totem Spirit",
+		"unique": [
+			"No defensive terrain penalty"
+		]
+	},
+	{
+		"name": "Scorpion Totem Spirit",
+		"unique": [
+			"[+10]% Strength <in [Toxic Waste] tiles>",
+			"[+10]% Strength <in [Fallout] tiles>"
+		]
+	},
+	{
+		"name": "Jellyfish Totem Spirit",
+		"unique": [
+			"[+1] Movement <in [Water] tiles>"
+		]
+	},
+	{
+		"name": "Rat Totem Spirit",
+		"unique": [
+			"[+10]% Strength <in [Jungle] tiles>",
+			"[+10]% Strength <in [Forest] tiles>"
+		]
+	},
+	{
+		"name": "Bull Totem Spirit",
+		"unique": [
+			"[+10]% Strength <when defending>"
+		]
+	},
+	{
+		"name": "Wolf Totem Spirit",
+		"unique": [
+			"[+10]% Strength <when attacking>"
+		]
+	},
+	{
+		"name": "Hawk Totem Spirit",
+		"unique": [
+			"[+1] Sight",
+			"Can see invisible [Military] units"
+		]
+	},
+	{
+		"name": "Owl Totem Spirit",
+		"unique": [
+			"[+1] Sight"
+		]
+	},
 ]
