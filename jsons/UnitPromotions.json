@@ -39,7 +39,7 @@
 	// The Wild
 	// todo: all the Totems
 	{
-		"name": "Totem Melee",
+		"name": "Totem Scrapper",
 		"unique": [
 			"[+5]% Strength <when [Horse Totem Spirit]>",
 			"[+5]% Strength <when [Goat Totem Spirit]>",
@@ -57,7 +57,7 @@
 		]
 	},
 	{
-		"name": "Totem Ranged",
+		"name": "Totem Shooter",
 		"unique": [
 			"[+5]% Strength <when [Horse Totem Spirit]>",
 			"[+5]% Strength <when [Goat Totem Spirit]>",
