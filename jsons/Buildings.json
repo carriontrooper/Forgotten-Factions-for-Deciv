@@ -427,7 +427,7 @@
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities with a [City Congress]> <when at war>",
 			"[+15]% Production when constructing [All] units [in all cities] <when at war>",
-			"[-10]% [Culture] from every [City Congress] <in all cities> <when at war>",
+			"[-10]% [Culture] from every [City Congress] <when at war>",
 			"[-5]% Production when constructing [All] buildings [in all cities] <when at war>",
 			"Destroyed when the city is captured"
 		],
