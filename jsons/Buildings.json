@@ -330,7 +330,7 @@
 		"food": 2,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Unlocks Underground Buildings",
+			"Comment [Unlocks Underground Buildings]",
 			"Unsellable",
 			"Automatically built in all cities where it is buildable",
 			"Never destroyed when the city is captured",
@@ -391,7 +391,7 @@
 		"cityStrength": 20,
 		"production": 2,
 		"uniques": [
-			"Must be next to [Mountain] tiles",
+			"Must be next to [Mountain]",
 			"Only available <in cities with a [Underground Town]>"
 		],
 		"maintenance": 1,
@@ -987,7 +987,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-			"Must be next to [Fresh Water] tiles",
+			"Must be next to [Fresh Water]",
 			"[+1 Food] from [Farm] tiles [in this city]"
 		],
 		"requiredTech": "Engineering"
