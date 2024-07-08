@@ -13,5 +13,9 @@
 	{
 		"name": "Fungal Tea",
 		"resourceType": "Luxury"
+	},
+	{
+		"name": "Microchip",
+		"resourceType": "Luxury"
 	}
 ]
