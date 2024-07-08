@@ -82,6 +82,8 @@
 			"[+2 Gold]", 
 			"Provides [2] [Weapons]", 
 			"Free [Communist Vanguard] appears",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
 		], 
     	"quote": "After the Great Catastrophe, we have found the Forbidden City - once the seat of government in the Ming and Qing Dynasty - now occupied by cannibals and bandits. But after years of restoration and refurbishing, it is finally repaired completely, and now open to the people and the seat of Communism in the east.", 
 
@@ -94,12 +96,84 @@
 
 	// Blue Sun
 	// todo: Expansion Yuan, military and border expansion oriented
+	{
+    	"name": "Expansion Yuan", 
+    	"isWonder": "true", 
+    	"uniqueTo": "Blue Sun", 
+    	"happiness": 1,
+    	"cost": 1,
+		"greatPersonPoints": {"Great General": 1},
+    	"uniques": [
+			"[-15]% Culture cost of natural border growth [in capital]", 
+			"[+2 Production]",
+			"Provides [2] [Weapons]", 
+			"Free [Volunteer Reclaimer] appears",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		], 
+    	"quote": "The newly-created sixth branch of the Taiwanese reconstruction government, the Expansion Yuan is meant to bolster reclamation attempts of the Chinese mainland.", 
+
+		"civiliopediaText": [
+               {
+                   "text": "The newly-created sixth branch of the Taiwanese reconstruction government, the Expansion Yuan is meant to bolster reclamation attempts of the Chinese mainland.", 
+               }, 
+		] 
+	},
 
 	// Gestalt
 	// todo: Mental Engine, +science and +culture, better unit defense in friendly lands
+	{
+		"name": "Mental Engine",
+		"isWonder": true,
+		"uniqueTo": "Gestalt",
+		"culture": 1,
+		"science": 1,
+		"cost": 0,
+		"uniques": [
+			"[+20]% Strength <for [Military] units> <when defending> <in [Friendly Land] tiles>",
+			"[2] free [Defender Unit] units appear",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Mind Node] [in this city]",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "We were separate. We are now one.",
+		"civilopediaText": [
+			{
+				"text": "We were separate. We are now one."
+			}
+		]
+	},
 
 	// The Wild
 	// todo: Ancestral Totem, +culture and +faith, addtional bonuses when other Totem buildings are built
+	{
+		"name": "Ancestral Totem",
+		"isWonder": true,
+		"uniqueTo": "The Wild",
+		"culture": 1,
+		"faith": 1,
+		"cost": 0,
+		"uniques": [
+			"[+1 Food] <if [Horse Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Food] <if [Goat Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Food] <if [Deer Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Food] <if [Boar Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Gold] <if [Frog Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Gold] <if [Beetle Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Gold] <if [Scorpion Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Culture] <if [Jellyfish Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Culture] <if [Rat Totem] is constructed in at least [1] of [Your] cities>",
+			"[+1 Production] <if [Bull Totem] is constructed in at least [1] of [Your] cities>",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Here, the totem spirits gather, bringing us their bounties.",
+		"civilopediaText": [
+			{
+				"text": "Here, the totem spirits gather, bringing us their bounties."
+			}
+		]
+	},
 
 	//// Uniques
 	// Dandelion
@@ -434,10 +508,77 @@
 	/*
 	todo:
 	Expeditionary Base: military building, boosts military unit production
-	Microchip Factory: late game gold and science booster, only available with metal, makes microchip luxury
+	Microchip Factory: late game gold and science booster, makes microchip luxury
 	Coalition Parliament: congress replacement, focus towards general production and negating unhappiness
-	Military Tribunal: council replacement, focus towards unit production and defense
+	Coalition Tribunal: council replacement, focus towards unit production and defense
 	*/
+	{
+		"name": "Expeditionary Base",
+		"replaces": "Barracks",
+		"uniqueTo": "Blue Sun",
+		"hurryCostModifier": 25,
+		"cost": 70,
+		"maintenance": 1,
+		"uniques": [
+			"New [Military] units start with [20] Experience [in this city]",
+			"[-10]% Production when constructing [Military] units [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Microchip Factory",
+		"replaces": "Factory",
+		"uniqueTo": "Blue Sun",
+		"percentStatBonus": { "production": 10 },
+		"specialistSlots": { "Engineer": 2 },
+		"science": 1,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Library]>",
+			"[+2 Production, +1 Gold] [in this city] <when above [0] [Power]>",
+			"[+1 Production, +1 Gold] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Provides [1] [Microchip]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
+	},
+	{
+		"name": "Coalition Parliament",
+		"replaces": "Congress",
+		"uniqueTo": "Blue Sun",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+5]% [Production] [in all cities]",
+			"[-20]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Coalition Tribunal]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Coalition Tribunal",
+		"replaces": "Council",
+		"uniqueTo": "Blue Sun",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[-10]% Production when constructing [Military] units [in all cities]",
+			"[+10]% City Strength from defensive buildings",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Coalition Parliament]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 	// Gestalt
 	/*
@@ -449,9 +590,135 @@
 	Mind Node: Monument replacement, +science
 	Resonance Node: listening post replacement, even less enemy spy effectiveness
 	Nutrient Facility: Food Store replacement, +food per pop in city
-	Gestalt Complexity: congress replacement, +science and +culture per pop in city
+	Gestalt Introspection: congress replacement, +science and +culture per pop in city
 	Gestalt Optimization: council replacement, +production and +gold per pop in city
 	*/
+	{
+		"name": "Mind Node",
+		"replaces": "Monument",
+		"uniqueTo": "Gestalt",
+		"culture": 1,
+		"science": 1,
+		"cost": 40,
+		"hurryCostModifier": 40
+	},
+	{
+		"name": "Assimilation Clinic",
+		"replaces": "Hospital",
+		"uniqueTo": "Gestalt",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": [
+			"[+1 Culture] per [3] population [in this city]",
+			"[30]% Food is carried over after population increases [in this city] <when above [-2] [Power]>",
+			"All newly-trained [relevant] units [in this city] receive the [Medic I] promotion",
+			"[+1 Science] [in this city] <with [Harvested Organs]>",
+			"Consumes [1] [Power]"
+		]
+	},
+	{
+		"name": "Assimilate Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Gestalt",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]",
+			"[Great General] is earned [+10]% faster"
+		]
+	},
+	{
+		"name": "Assimilate Isolationists",
+		"replaces": "Ally with Isolationists",
+		"uniqueTo": "Gestalt",
+		"cost": 5,
+		"uniques": [
+			"Limited to [1] per Civilization",
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+2 Science, +1 Gold, +1 Culure] from [Isolated Island] tiles [in this city]",
+			"[+1 Science] per [3] population [in this city]"
+		]
+	},
+	{
+		"name": "Assimilate Slaves",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Gestalt",
+		"hurryCostModifier": -25,
+		"food": -1,
+		"cost": 20,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Can only be built <with [Slaves]>",
+			"[+1 Production] per [3] population [in this city]",
+			"[+1 Production] per [3] population [in this city] <with [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Only available <in cities without a [Resonance Node]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Resonance Node",
+		"replaces": "Listening Post",
+		"uniqueTo": "Gestalt",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"[-35]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Assimilate Slaves]>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Nutrient Processing",
+		"replaces": "Food Store",
+		"uniqueTo": "Gestalt",
+		"cost": 10,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[10]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[+1 Food, +1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Food, +1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>",
+			"[+1 Food] per [3] population [in this city]"
+		]
+	},
+	{
+		"name": "Gestalt Introspection",
+		"replaces": "Congress",
+		"uniqueTo": "Gestalt",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Science] per [3] population [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Gestalt Optimization]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Gestalt Optimization",
+		"replaces": "Council",
+		"uniqueTo": "Gestalt",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Production, +1 Gold] per [3] population [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Gestalt Introspection]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	
 
 	// The Wild
 	/*
@@ -461,7 +728,7 @@
 	Goat Totem: +food, new units built in this city gets +1 movement on rough terrain, only available with goats
 	Frog Totem: +gold, +gold on rivers/lakes, new units built in this city gets amphibious promotion, only available with river/lake
 	Bull Totem: +general production, new units built in this city gets extra strength when defending, only available with cattle
-	Insect Totem: +gold, new units built in this city do not get terrain maluses, only available with insects
+	Beetle Totem: +gold, new units built in this city do not get terrain maluses, only available with insects
 	Scorpion Totem: +gold, new units built in this city gets more strength in toxic tiles, only available with hostile fauna
 	Deer Totem: +food, new units built in this city gain evasion, only available with deer
 	Boar Totem: +food, new units built in this city gain flanking bonus, only available with hogs
@@ -477,6 +744,90 @@
 	Court of Shamans: replaces congress, +faith per totem in this city
 	Court of Warriors: replaces council, +military unit production
 	*/
+	{
+		"name": "Spirit Totem",
+		"replaces": "Monument",
+		"uniqueTo": "The Wild",
+		"culture": 2,
+		"faith": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem"
+		]
+	},
+	{
+		"name": "Secret Totem",
+		"replaces": "Listening Post",
+		"uniqueTo": "The Wild",
+		"maintenance": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Ghillie Suit] promotion",
+			"Remove extra unhappiness from annexed cities",
+			"[+20]% spy effectiveness [in this city]",
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Horse Totem",
+		"uniqueTo": "The Wild",
+		"food": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Horse Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Horse]>"
+		]
+	},
+	{
+		"name": "Goat Totem",
+		"uniqueTo": "The Wild",
+		"food": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+			"Totem",
+			"All newly-trained [relevant] units [in this city] receive the [Goat Totem Spirit] promotion",
+			"Only available <within [3] tiles of a [Goat]>"
+		]
+	},
+	{
+		"name": "Court of Shamans",
+		"replaces": "Congress",
+		"uniqueTo": "The Wild",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Faith] from every [Totem] <in this city>",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Court of Warriors",
+		"replaces": "Council",
+		"uniqueTo": "The Wild",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[-15]% Production when constructing [Military] units [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 	//// Misc Buildings
 	{
