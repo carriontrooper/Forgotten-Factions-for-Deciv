@@ -723,6 +723,21 @@
 			"Destroyed when the city is captured"
 		]
 	},
+
+	{
+		"name": "Gestalt cannot ally with Isolationists",
+		"replaces": "Ally with Isolationists",
+		"uniqueTo": "Gestalt",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Gestalt cannot annex Isolationists",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "Gestalt",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
 	
 
 	// The Wild
