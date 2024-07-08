@@ -101,7 +101,8 @@
 	{
 		"name": "Boar Totem Spirit",
 		"unique": [
-			"[+10]% to Flank Attack bonuses"
+			"[+10]% to Flank Attack bonuses",
+			"[+10]% Strength <when [Wounded]>"
 		]
 	},
 	{
