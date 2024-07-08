@@ -261,12 +261,12 @@
         "hateHello": "You are not welcome here, beware of your actions.",
         "tradeRequest": "Our Government is disposed to make an exchange...",
         "outerColor": [0,90,145],
-        "innerColor": [10,60,31],
+        "innerColor": [29,171,88],
         "uniqueName": "Underground People",
         "uniques": [
             //"Starts with [Civil Service]",
             "Starts with [Secrets of the Past]",
-            "[-1 Science][in all cities]<before discovering [Education]>"
+            "[-1 Science] [in all cities] <before discovering [Education]>"
         ],
         "cities": [
 			"North City",
@@ -328,7 +328,7 @@
 		"tradeRequest": "The CCP has seen fit to offer you these goods, with a price of course....",
 
 		"outerColor": [226, 0, 41],
-		"innerColor": [207, 179, 0],
+		"innerColor": [255, 236, 112],
 		"favoredReligion": "Communism",
 		//"style": "",
 		"uniqueName": "Unity Under the Iron Fist",
@@ -528,13 +528,13 @@
 
 		"tradeRequest": "We bring goods. Show your hospitality.",
 
-		"outerColor": [130, 217, 0],
-		"innerColor": [163, 101, 20],
+		"outerColor": [94, 73, 13],
+		"innerColor": [255, 133, 25],
 		"favoredReligion": "Totem Animism",
 		"uniqueName": "Wilderness Spirits",
 		"uniques": [
 			"[+10]% Strength <for [{Land} {Military}] units> <when fighting in [Rough terrain] tiles>",
-			"[+1 Culture] [in all cities] <when at peace>",
+			"[+1 Culture] [in all cities] <when not at war>",
 			"[+1 Production] [in all cities] <when at war>"
 		],
 		"cities": [
