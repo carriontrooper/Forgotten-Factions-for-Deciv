@@ -145,7 +145,7 @@
 			"Urban Warfare I",
 			"Tear Gas",
 			"Pride"
-		]
+		],
 		"uniques":[
 			"Personnel",
 			"Excess Food converted to Production when under construction <when at war>", 
@@ -547,20 +547,10 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <vs [Mounted] units>",
-			"[+5]% Strength <when [Horse Totem Spirit]>",
-			"[+5]% Strength <when [Goat Totem Spirit]>",
-			"[+5]% Strength <when [Deer Totem Spirit]>",
-			"[+5]% Strength <when [Boar Totem Spirit]>",
-			"[+5]% Strength <when [Frog Totem Spirit]>",
-			"[+5]% Strength <when [Beetle Totem Spirit]>",
-			"[+5]% Strength <when [Scorpion Totem Spirit]>",
-			"[+5]% Strength <when [Jellyfish Totem Spirit]>",
-			"[+5]% Strength <when [Rat Totem Spirit]>",
-			"[+5]% Strength <when [Bull Totem Spirit]>",
-			"[+5]% Strength <when [Wolf Totem Spirit]>",
-			"[+5]% Strength <when [Hawk Totem Spirit]>",
-			"[+5]% Strength <when [Owl Totem Spirit]>",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions":[
+			"Totem Scrapper"
 		],
 		"attackSound": "nonmetalhit"
 	},
@@ -580,20 +570,10 @@
 		"upgradesTo": "Totem Thunderstick",
 		"uniques": [
 			"Low Tech",
-			"[+50]% Strength <vs [Low Tech] units>",
-			"[+5]% Strength <when [Horse Totem Spirit]>",
-			"[+5]% Strength <when [Goat Totem Spirit]>",
-			"[+5]% Strength <when [Deer Totem Spirit]>",
-			"[+5]% Strength <when [Boar Totem Spirit]>",
-			"[+5]% Strength <when [Frog Totem Spirit]>",
-			"[+5]% Strength <when [Beetle Totem Spirit]>",
-			"[+5]% Strength <when [Scorpion Totem Spirit]>",
-			"[+5]% Strength <when [Jellyfish Totem Spirit]>",
-			"[+5]% Strength <when [Rat Totem Spirit]>",
-			"[+5]% Strength <when [Bull Totem Spirit]>",
-			"[+5]% Strength <when [Wolf Totem Spirit]>",
-			"[+1] Range <when [Hawk Totem Spirit]>",
-			"[+5]% Strength <when [Owl Totem Spirit]>",
+			"[+50]% Strength <vs [Low Tech] units>"
+		],
+		"promotions":[
+			"Totem Shooter"
 		],
 		"attackSound": "arrow"
 	},
@@ -611,20 +591,10 @@
 		"upgradesTo": "Soldier",
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Weapons]",
-			"[+5]% Strength <when [Horse Totem Spirit]>",
-			"[+5]% Strength <when [Goat Totem Spirit]>",
-			"[+5]% Strength <when [Deer Totem Spirit]>",
-			"[+5]% Strength <when [Boar Totem Spirit]>",
-			"[+5]% Strength <when [Frog Totem Spirit]>",
-			"[+5]% Strength <when [Beetle Totem Spirit]>",
-			"[+5]% Strength <when [Scorpion Totem Spirit]>",
-			"[+5]% Strength <when [Jellyfish Totem Spirit]>",
-			"[+5]% Strength <when [Rat Totem Spirit]>",
-			"[+5]% Strength <when [Bull Totem Spirit]>",
-			"[+5]% Strength <when [Wolf Totem Spirit]>",
-			"[+5]% Strength <when [Hawk Totem Spirit]>",
-			"[+5]% Strength <when [Owl Totem Spirit]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions":[
+			"Totem Scrapper"
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
@@ -646,21 +616,121 @@
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Weapons]",
-			"[+5]% Strength <when [Horse Totem Spirit]>",
-			"[+5]% Strength <when [Goat Totem Spirit]>",
-			"[+5]% Strength <when [Deer Totem Spirit]>",
-			"[+5]% Strength <when [Boar Totem Spirit]>",
-			"[+5]% Strength <when [Frog Totem Spirit]>",
-			"[+5]% Strength <when [Beetle Totem Spirit]>",
-			"[+5]% Strength <when [Scorpion Totem Spirit]>",
-			"[+5]% Strength <when [Jellyfish Totem Spirit]>",
-			"[+5]% Strength <when [Rat Totem Spirit]>",
-			"[+5]% Strength <when [Bull Totem Spirit]>",
-			"[+5]% Strength <when [Wolf Totem Spirit]>",
-			"[+1] Range <when [Hawk Totem Spirit]>",
-			"[+5]% Strength <when [Owl Totem Spirit]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions":[
+			"Totem Shooter"
 		],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Totem Rider",
+		"unitType": "Scrapper",
+		"replaces": "Horseman",
+		"uniqueTo": "The Wild",
+		"movement": 4,
+		"strength": 20,
+		"cost": 70,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Totem Gun Rider",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions":[
+			"Totem Mounted Scrapper"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Totem Bow Rider",
+		"unitType": "Shooter",
+		"replaces": "Skirmisher",
+		"uniqueTo": "The Wild",
+		"range": 1,
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Totem Thunderstick Rider",
+		"uniques": [
+			"Low Tech",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[+33]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"promotions":[
+			"Totem Mounted Shooter"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Totem Gun Rider",
+		"unitType": "Scrapper",
+		"replaces": "Hussar",
+		"uniqueTo": "The Wild",
+		"movement": 4,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 75,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions":[
+			"Totem Mounted Scrapper"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
+		"name": "Totem Thunderstick Rider",
+		"unitType": "Shooter",
+		"replaces": "Dragoon",
+		"uniqueTo": "The Wild",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 80,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Light Cavalry",
+		"uniques": [
+			"Personnel",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions":[
+			"Totem Mounted Shooter"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	}
 ]
