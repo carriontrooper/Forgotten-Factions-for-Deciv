@@ -420,7 +420,7 @@
 		"interceptRange": 1,
 		"cost": 230,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Ultimate Defense Unit",
+		"upgradesTo": "Ultimate Defensive Unit",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Defensive Unit",
@@ -442,7 +442,7 @@
 		"interceptRange": 1,
 		"cost": 230,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Ultimate Offense Unit",
+		"upgradesTo": "Ultimate Offensive Unit",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Offensive Unit",
