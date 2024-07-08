@@ -255,7 +255,7 @@
 			"Unsellable",
 			"Automatically built in all cities where it is buildable",
 			"Never destroyed when the city is captured",
-			"Only available <with [Underground]>",
+			"Only available <with [Underground Space]>",
 			"[+20]% Culture cost of natural border growth [in this city]",
 			"[+20]% Gold cost of acquiring tiles [in this city]",
 			"[+5]% Production when constructing [All] buildings [in this city]",
