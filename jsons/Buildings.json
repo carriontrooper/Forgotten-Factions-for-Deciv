@@ -641,7 +641,7 @@
 		"uniques": [
 			"Limited to [1] per Civilization",
 			"Must have an owned [Isolated Island] within [3] tiles",
-			"[+2 Science, +1 Gold, +1 Culure] from [Isolated Island] tiles [in this city]",
+			"[+2 Science, +1 Gold, +1 Culture] from [Isolated Island] tiles [in this city]",
 			"[+1 Science] per [3] population [in this city]"
 		]
 	},
