@@ -39,6 +39,42 @@
 	// The Wild
 	// todo: all the Totems
 	{
+		"name": "Totem Melee",
+		"unique": [
+			"[+5]% Strength <when [Horse Totem Spirit]>",
+			"[+5]% Strength <when [Goat Totem Spirit]>",
+			"[+5]% Strength <when [Deer Totem Spirit]>",
+			"[+5]% Strength <when [Boar Totem Spirit]>",
+			"[+5]% Strength <when [Frog Totem Spirit]>",
+			"[+5]% Strength <when [Beetle Totem Spirit]>",
+			"[+5]% Strength <when [Scorpion Totem Spirit]>",
+			"[+5]% Strength <when [Jellyfish Totem Spirit]>",
+			"[+5]% Strength <when [Rat Totem Spirit]>",
+			"[+5]% Strength <when [Bull Totem Spirit]>",
+			"[+5]% Strength <when [Wolf Totem Spirit]>",
+			"[+5]% Strength <when [Hawk Totem Spirit]>",
+			"[+5]% Strength <when [Owl Totem Spirit]>",
+		]
+	},
+	{
+		"name": "Totem Ranged",
+		"unique": [
+			"[+5]% Strength <when [Horse Totem Spirit]>",
+			"[+5]% Strength <when [Goat Totem Spirit]>",
+			"[+5]% Strength <when [Deer Totem Spirit]>",
+			"[+5]% Strength <when [Boar Totem Spirit]>",
+			"[+5]% Strength <when [Frog Totem Spirit]>",
+			"[+5]% Strength <when [Beetle Totem Spirit]>",
+			"[+5]% Strength <when [Scorpion Totem Spirit]>",
+			"[+5]% Strength <when [Jellyfish Totem Spirit]>",
+			"[+5]% Strength <when [Rat Totem Spirit]>",
+			"[+5]% Strength <when [Bull Totem Spirit]>",
+			"[+5]% Strength <when [Wolf Totem Spirit]>",
+			"[+1] Range <when [Hawk Totem Spirit]>",
+			"[+5]% Strength <when [Owl Totem Spirit]>",
+		]
+	},
+	{
 		"name": "Ghillie Suit",
 		"unique": [
 			"Invisible to non-adjacent units"
