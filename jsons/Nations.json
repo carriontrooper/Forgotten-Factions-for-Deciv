@@ -402,8 +402,8 @@
 			"[-20]% Strength <for [Low Tech] units>",
             "[-1] Unit Supply per [4] population [in all cities]",
             "[+4 Production] [in all cities]",
-            "[-20]% [Production] [in all cities]",
-            "[-20]% [Food] [in all cities]",
+            "[-10]% [Production] [in all cities]",
+            "[-10]% [Food] [in all cities]",
             "[-1 Happiness] [in all cities]",
 			"All newly-trained [All] units [in all cities] receive the [Amphibious] promotion"
 		],
