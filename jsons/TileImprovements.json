@@ -11,6 +11,18 @@
 			"Improves [Encrypted Data] resource in this tile",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
-		"shortcutKey": "H"
+	},
+	{
+		"name": "Underground Base",
+		"uniqueTo": "The Confederacy",
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Gives a defensive bonus of [50]%",
+			"[+1 Production, +1 Food] <after discovering [Civil Service]>",
+			"Can only be built <in [Underground Space] tiles>"
+		],
 	}
 ]
