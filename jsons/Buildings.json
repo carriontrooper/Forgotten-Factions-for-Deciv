@@ -895,7 +895,7 @@
 		"uniques": [
 			"Totem",
 			"All newly-trained [Military] units [in this city] receive the [Jellyfish Totem Spirit] promotion",
-			"Only available <within [3] tiles of a [Jellyfish]>"
+			//"Only available <within [3] tiles of a [Jellyfish]>"
 		]
 	},
 	{

@@ -266,7 +266,8 @@
         "uniques": [
             //"Starts with [Civil Service]",
             "Starts with [Secrets of the Past]",
-            "[-1 Science] [in all cities] <before discovering [Education]>"
+            "[-1 Science] [in all cities] <before discovering [Education]>",
+			"[+20]% Strength for cities <within [3] tiles of a [Underground Space]>"
         ],
         "cities": [
 			"North City",
