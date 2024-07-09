@@ -1,7 +1,8 @@
 [
 	{
 	    "name" : "Sea Fauna", 
-	    "terrainsCanBeFoundOn" : ["Sea Nursery"], 
+	    "terrainsCanBeFoundOn" : ["Sea Nursery"],
+		"food": 1,
 	    "improvement" : "Fishing Boats",
 	    "improvementStats" : {"science": 1, "food": 1} 
     },
