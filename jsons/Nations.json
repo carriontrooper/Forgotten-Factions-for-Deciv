@@ -263,11 +263,12 @@
         "outerColor": [0,90,145],
         "innerColor": [29,171,88],
         "uniqueName": "Underground People",
-        "uniques": [
-            //"Starts with [Civil Service]",
-            "Starts with [Secrets of the Past]",
-            "[-1 Science] [in all cities] <before discovering [Education]>",
-			"[+20]% Strength for cities <within [3] tiles of a [Underground Space]>"
+		"uniques": [
+			//"Starts with [Civil Service]",
+			"Starts with [Secrets of the Past]",
+			"[-1 Science] [in all cities] <before discovering [Education]>",
+			"[+20]% Strength for cities <within [3] tiles of a [Underground Space]>",
+			"[+10]% Strength <for [Personnel] units> <within [2] tiles of a [Underground Space]>"
         ],
         "cities": [
 			"North City",
