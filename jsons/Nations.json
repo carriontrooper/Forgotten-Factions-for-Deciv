@@ -268,7 +268,8 @@
 			"Starts with [Secrets of the Past]",
 			"[-1 Science] [in all cities] <before discovering [Education]>",
 			"[+20]% Strength for cities <within [3] tiles of a [Underground Space]>",
-			"[+10]% Strength <for [Personnel] units> <within [2] tiles of a [Underground Space]>"
+			"[+5]% Strength <for [Personnel] units> <within [2] tiles of a [Underground Space]>",
+			"[+10]% Strength <for [Personnel] units> <within [2] tiles of a [Underground Base]>"
         ],
         "cities": [
 			"North City",
