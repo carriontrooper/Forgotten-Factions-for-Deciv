@@ -534,6 +534,7 @@
 		"outerColor": [94, 73, 13],
 		"innerColor": [255, 133, 25],
 		"favoredReligion": "Totem Animism",
+		"style": "Tribal",
 		"uniqueName": "Wilderness Spirits",
 		"uniques": [
 			"[+10]% Strength <for [{Land} {Military}] units> <when fighting in [Rough terrain] tiles>",
