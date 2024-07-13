@@ -15,6 +15,7 @@
 	{
 		"name": "Underground Base",
 		"uniqueTo": "The Confederacy",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
 		"uniques": [
