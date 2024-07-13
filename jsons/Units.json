@@ -179,19 +179,19 @@
 		"attackSound": "machinegun"
 	}, 
 	{
-		"name": "Recovered Dongfei Missiles", 
-		"replaces": "Nuclear Missile", 
-		"unique to": "Central State", 
-		"unitType": "Missile", 
+		"name": "Recovered Dongfei Missiles",
+		"replaces": "Nuclear Missile",
+		"unique to": "Central State",
+		"unitType": "Missile",
 		"range": 20,
-		"strength": 300, 
+		"strength": 300,
 		"rangedStrength": 300,
 		"cost": 800,
-		"requiredTech": "Rocketry", 
+		"requiredTech": "Rocketry",
 		"unique": [
 			"Only available if [Manhattan Project] is constructed",
 			"Consumes [2] [Uranium]"
-		], 
+		],
 		"blastRadius": 2,
 		"nuclearWeaponOfStrength": 2
 	},
