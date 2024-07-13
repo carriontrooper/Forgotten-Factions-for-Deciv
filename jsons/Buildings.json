@@ -415,7 +415,11 @@
 			"[-20]% Culture cost of natural border growth [in this city]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Destroyed when the city is captured"
-		]
+		],
+		"specialistSlot":{
+			"Administrator":2
+		}, 
+		"maintenance": 1
 	},
 	{
 		"name": "War Meeting Room",
