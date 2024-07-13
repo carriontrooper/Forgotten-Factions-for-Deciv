@@ -3,7 +3,7 @@
 	// todo: Loner
 	{
 		"name": "Loner",
-		"unique": [
+		"uniques": [
 			"[-10]% Strength <when adjacent to [{Dandelion} {Military}] unit>"
 		]
 	},
@@ -11,7 +11,7 @@
 	// Central State
 	{
 		"name": "Protector of the People",
-		"unique": [
+		"uniques": [
 			"[+15]% Strength <in [Friendly Land] tiles>", 
 			"Damage is ignored when calculating unit Strength",
 			"[+20]% Strength <when below [100] HP>"
@@ -21,7 +21,7 @@
 	// Blue Sun
 	{
 		"name": "Reclamatory Volunteer",
-		"unique": [
+		"uniques": [
 			"[+15]% Strength <in [Enemy Land] tiles>",
 			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>"
 		]
@@ -31,7 +31,7 @@
 	// todo: Hive Mind
 	{
 		"name": "Hive Mind",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <when adjacent to [{Gestalt} {Military}] unit>"
 		]
 	},
@@ -40,7 +40,7 @@
 	// todo: all the Totems
 	{
 		"name": "Totem Scrapper",
-		"unique": [
+		"uniques": [
 			"[+5]% Strength <for units with [Horse Totem Spirit]>",
 			"[+5]% Strength <for units with [Goat Totem Spirit]>",
 			"[+5]% Strength <for units with [Deer Totem Spirit]>",
@@ -58,7 +58,7 @@
 	},
 	{
 		"name": "Totem Shooter",
-		"unique": [
+		"uniques": [
 			"[+5]% Strength <for units with [Horse Totem Spirit]>",
 			"[+5]% Strength <for units with [Goat Totem Spirit]>",
 			"[+5]% Strength <for units with [Deer Totem Spirit]>",
@@ -76,7 +76,7 @@
 	},
 	{
 		"name": "Totem Mounted Scrapper",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <for units with [Horse Totem Spirit]>",
 			"[+5]% Strength <for units with [Goat Totem Spirit]>",
 			"[+5]% Strength <for units with [Deer Totem Spirit]>",
@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "Totem Mounted Shooter",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <for units with [Horse Totem Spirit]>",
 			"[+5]% Strength <for units with [Goat Totem Spirit]>",
 			"[+5]% Strength <for units with [Deer Totem Spirit]>",
@@ -112,90 +112,90 @@
 	},
 	{
 		"name": "Ghillie Suit",
-		"unique": [
+		"uniques": [
 			"Invisible to non-adjacent units"
 		]
 	},
 	{
 		"name": "Horse Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+1] Movement <in [Open terrain] tiles>"
 		]
 	},
 	{
 		"name": "Goat Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+1] Movement <in [Rough terrain] tiles>"
 		]
 	},
 	{
 		"name": "Deer Totem Spirit",
-		"unique": [
+		"uniques": [
 			"Withdraws before melee combat <with [20]% chance>"
 		]
 	},
 	{
 		"name": "Boar Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+10]% to Flank Attack bonuses",
 			"[+10]% Strength <when [Wounded]>"
 		]
 	},
 	{
 		"name": "Frog Totem Spirit",
-		"unique": [
+		"uniques": [
 			"Eliminates combat penalty for attacking over a river",
 			"Eliminates combat penalty for attacking across a coast"
 		]
 	},
 	{
 		"name": "Beetle Totem Spirit",
-		"unique": [
+		"uniques": [
 			"No defensive terrain penalty"
 		]
 	},
 	{
 		"name": "Scorpion Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <in [Toxic Waste] tiles>",
 			"[+10]% Strength <in [Fallout] tiles>"
 		]
 	},
 	{
 		"name": "Jellyfish Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+1] Movement <in [Water] tiles>"
 		]
 	},
 	{
 		"name": "Rat Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <in [Jungle] tiles>",
 			"[+10]% Strength <in [Forest] tiles>"
 		]
 	},
 	{
 		"name": "Bull Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <when defending>"
 		]
 	},
 	{
 		"name": "Wolf Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+10]% Strength <when attacking>"
 		]
 	},
 	{
 		"name": "Hawk Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+1] Sight",
 			"Can see invisible [Military] units"
 		]
 	},
 	{
 		"name": "Owl Totem Spirit",
-		"unique": [
+		"uniques": [
 			"[+1] Sight"
 		]
 	},
