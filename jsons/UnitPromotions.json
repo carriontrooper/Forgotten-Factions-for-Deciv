@@ -13,7 +13,7 @@
 		"name": "Protector of the People",
 		"uniques": [
 			"[+15]% Strength <in [Friendly Land] tiles>", 
-			"Damage is ignored when calculating unit Strength",
+			"No damage penalty for wounded units",
 			"[+20]% Strength <when below [100] HP>"
 		]
 	},
