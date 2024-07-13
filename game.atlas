@@ -1,0 +1,349 @@
+
+game.png
+size: 2048, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/City Congress
+  rotate: false
+  xy: 428, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Parliament
+  rotate: false
+  xy: 428, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Constitution of Elysium
+  rotate: false
+  xy: 644, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Court
+  rotate: false
+  xy: 752, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Irrigation System
+  rotate: false
+  xy: 1400, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Refugee Center
+  rotate: false
+  xy: 1832, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stele of Constitution
+  rotate: false
+  xy: 212, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Old Underground
+  rotate: false
+  xy: 1292, 32
+  size: 83, 100
+  orig: 83, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underground Town
+  rotate: false
+  xy: 1076, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/War Meeting Room
+  rotate: false
+  xy: 1184, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Decryption Analysis Center
+  rotate: false
+  xy: 968, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Blue Sun
+  rotate: false
+  xy: 212, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Central State
+  rotate: false
+  xy: 320, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Dandelion
+  rotate: false
+  xy: 860, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Elysium
+  rotate: false
+  xy: 4, 40
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Gestalt
+  rotate: false
+  xy: 1184, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Confederacy
+  rotate: false
+  xy: 536, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Wild
+  rotate: false
+  xy: 752, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Communism
+  rotate: false
+  xy: 536, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/God Worshipping Society
+  rotate: false
+  xy: 1292, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Sunni Islam
+  rotate: false
+  xy: 320, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/The Gestalt
+  rotate: false
+  xy: 644, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Totem Animism
+  rotate: false
+  xy: 860, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Fungal Tea
+  rotate: false
+  xy: 1076, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Microchip
+  rotate: false
+  xy: 1616, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sea Fauna
+  rotate: false
+  xy: 1940, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Underground Space
+  rotate: false
+  xy: 968, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Desert Mountain
+  rotate: false
+  xy: 1383, 64
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Opabinia
+  rotate: false
+  xy: 1503, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Pre-war Antenna
+  rotate: false
+  xy: 164, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sea Nursery
+  rotate: false
+  xy: 1543, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Communist Vanguard
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Conscript-Central State
+  rotate: false
+  xy: 1383, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crossbowman-Central State
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great General-Central State
+  rotate: false
+  xy: 1423, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gunman-Central State
+  rotate: false
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Machete-Central State
+  rotate: false
+  xy: 1423, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Marksman-Central State
+  rotate: false
+  xy: 1463, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Militia-Central State
+  rotate: false
+  xy: 124, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NBC Marksman-Central State
+  rotate: false
+  xy: 1463, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rifleman-Central State
+  rotate: false
+  xy: 1503, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Central State
+  rotate: false
+  xy: 1543, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Soldier-Central State
+  rotate: false
+  xy: 1583, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Central State
+  rotate: false
+  xy: 1583, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trooper-Central State
+  rotate: false
+  xy: 1623, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker-Central State
+  rotate: false
+  xy: 1623, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Medic
+  rotate: false
+  xy: 1508, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/NBC Support
+  rotate: false
+  xy: 1724, 140
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Support
+  rotate: false
+  xy: 428, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
