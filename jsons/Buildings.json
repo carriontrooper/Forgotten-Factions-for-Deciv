@@ -73,7 +73,7 @@
 	{
     	"name": "Forbidden Palace", 
     	"isWonder": "true", 
-    	"uniqueTo": "The Central State", 
+    	"uniqueTo": "Central State", 
     	"happiness": 2,
     	"cost": 1,
 		"greatPersonPoints": {"Great Administrator": 1},
@@ -442,7 +442,7 @@
 	{
 		"name": "Heavy Industry Factory", 
 		"replaces": "Factory", 
-		"uniqueTo": "The Central State",
+		"uniqueTo": "Central State",
 		"specialistSlots": { "Engineer": 3 },
 		"cost": 250,
 		"production": 4,
@@ -464,7 +464,7 @@
 	{
     "name": "Reeducation Camp", 
     "replaces": "Prison Camp", 
-    "uniqueTo": "The Central State", 
+    "uniqueTo": "Central State", 
     "cost": 30, 
     "food": -2, 
     "culture": -1, 
@@ -483,7 +483,7 @@
 	{
     "name": "Hall Of The People", 
     "replaces": "Congress", 
-    "uniqueTo": "The Central State",
+    "uniqueTo": "Central State",
 	"greatPersonPoints": {"Great Administrator": 2},
     "cost": 100, 
     "hurryCostModifier": 25,
@@ -499,7 +499,7 @@
 	{
     "name": "Inner Palace Chamber", 
     "replaces": "Council", 
-    "uniqueTo": "The Central State", 
+    "uniqueTo": "Central State", 
     "cost": 50, 
     "hurryCostModifier": 25, 
     "uniques": [
