@@ -157,7 +157,7 @@
 	{
 		"name": "Communist Vanguard", 
 		"replaces": "NBC Infantry",
-		"uniqueTo": "The Central State", 
+		"uniqueTo": "Central State", 
 		"unitType": "Scrapper",
 		"interceptRange": 1, 
 		"movement": 2,
@@ -181,7 +181,7 @@
 	{
 		"name": "Recovered Dongfei Missiles", 
 		"replaces": "Nuclear Missile", 
-		"unique to": "The Central State", 
+		"unique to": "Central State", 
 		"unitType": "Missile", 
 		"range": 20,
 		"strength": 300, 
