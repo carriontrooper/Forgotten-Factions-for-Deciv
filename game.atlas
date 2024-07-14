@@ -195,133 +195,259 @@ ResourceIcons/Underground Space
   index: -1
 TileSets/FantasyHex/Tiles/Desert Mountain
   rotate: false
-  xy: 1383, 64
+  xy: 1423, 64
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Opabinia
   rotate: false
-  xy: 1503, 104
+  xy: 1743, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pre-war Antenna
   rotate: false
-  xy: 164, 4
+  xy: 1783, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sea Nursery
   rotate: false
-  xy: 1543, 68
+  xy: 1823, 68
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Communist Vanguard
+TileSets/FantasyHex/Units/Anti-Aircraft Gun-Central State
   rotate: false
   xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Conscript-Central State
+TileSets/FantasyHex/Units/Anti-Tank Gun-Central State
   rotate: false
   xy: 1383, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Crossbowman-Central State
+TileSets/FantasyHex/Units/Attack Vehicle-Central State
   rotate: false
   xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great General-Central State
+TileSets/FantasyHex/Units/Cavalry-Central State
+  rotate: false
+  xy: 1383, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Communist Vanguard
   rotate: false
   xy: 1423, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gunman-Central State
+TileSets/FantasyHex/Units/Conscript-Central State
   rotate: false
   xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machete-Central State
+TileSets/FantasyHex/Units/Crossbowman-Central State
   rotate: false
-  xy: 1423, 68
+  xy: 1383, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Marksman-Central State
+TileSets/FantasyHex/Units/Dragoon-Central State
   rotate: false
   xy: 1463, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Militia-Central State
+TileSets/FantasyHex/Units/Foward Observer-Central State
   rotate: false
   xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Marksman-Central State
+TileSets/FantasyHex/Units/Great General-Central State
   rotate: false
   xy: 1463, 68
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Rifleman-Central State
+TileSets/FantasyHex/Units/Gunman-Central State
+  rotate: false
+  xy: 1503, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Horseman-Central State
+  rotate: false
+  xy: 164, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hussar-Central State
   rotate: false
   xy: 1503, 68
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Central State
+TileSets/FantasyHex/Units/Light Cavalry-Central State
   rotate: false
   xy: 1543, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Soldier-Central State
+TileSets/FantasyHex/Units/Machete-Central State
+  rotate: false
+  xy: 1543, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Machine Gun-Central State
   rotate: false
   xy: 1583, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman-Central State
+TileSets/FantasyHex/Units/Marksman-Central State
   rotate: false
   xy: 1583, 68
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Central State
+TileSets/FantasyHex/Units/Militia-Central State
   rotate: false
   xy: 1623, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker-Central State
+TileSets/FantasyHex/Units/Missile Vehicle-Central State
   rotate: false
   xy: 1623, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Armor-Central State
+  rotate: false
+  xy: 1663, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Infantry-Central State
+  rotate: false
+  xy: 1663, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mounted Worker-Central State
+  rotate: false
+  xy: 1703, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NBC Marksman-Central State
+  rotate: false
+  xy: 1703, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Paratrooper-Central State
+  rotate: false
+  xy: 1743, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rifleman-Central State
+  rotate: false
+  xy: 1783, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Scout-Central State
+  rotate: false
+  xy: 1823, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Skirmisher-Central State
+  rotate: false
+  xy: 1863, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Soldier-Central State
+  rotate: false
+  xy: 1863, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Spearman-Central State
+  rotate: false
+  xy: 1903, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tank-Central State
+  rotate: false
+  xy: 1903, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Technical-Central State
+  rotate: false
+  xy: 1943, 104
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trooper-Central State
+  rotate: false
+  xy: 1943, 68
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker-Central State
+  rotate: false
+  xy: 1983, 104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
