@@ -108,7 +108,7 @@
         "tradeRequest": "My mind has said yes.",
 
         "outerColor": [6, 255, 6],
-        "innerColor": [3, 0, 77],
+        "innerColor": [245, 208, 0],
         "uniqueName": "Land of the Dandelion Eaters",
         "uniques": [
             //"Starts with [Secrets of the Past]",
