@@ -107,7 +107,7 @@
         "hateHello": "I hate you!",
         "tradeRequest": "My mind has said yes.",
 
-        "outerColor": [6, 255, 6],
+        "outerColor": [0, 158, 0],
         "innerColor": [245, 208, 0],
         "uniqueName": "Land of the Dandelion Eaters",
         "uniques": [
