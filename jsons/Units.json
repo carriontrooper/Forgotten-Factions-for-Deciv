@@ -181,7 +181,7 @@
 	{
 		"name": "Recovered Dongfei Missiles",
 		"replaces": "Nuclear Missile",
-		"unique to": "Central State",
+		"uniqueTo": "Central State",
 		"unitType": "Missile",
 		"range": 20,
 		"strength": 300,
