@@ -309,7 +309,7 @@
 			"Can transform to [Subpar Offensive Unit] <requires [1] movement>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Subpar Offensive Unit",
@@ -330,7 +330,7 @@
 			"Can transform to [Subpar Defensive Unit] <requires [1] movement>"
 		],
 		"hurryCostModifier": 20,
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Standard Defensive Unit",
@@ -350,7 +350,7 @@
 			"[+10]% Strength <when defending> <when adjacent to a [Defensive Unit] unit>",
 			"Can transform to [Standard Offensive Unit] <requires [1] movement>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Standard Offensive Unit",
@@ -369,7 +369,7 @@
 			"[+10]% Strength <when attacking> <when adjacent to a [Offensive Unit] unit>",
 			"Can transform to [Standard Defensive Unit] <requires [1] movement>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Improved Defensive Unit",
@@ -390,7 +390,7 @@
 			"[+10]% Strength <when defending> <when adjacent to a [Defensive Unit] unit>",
 			"Can transform to [Improved Offensive Unit] <requires [1] movement>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Improved Offensive Unit",
@@ -410,7 +410,7 @@
 			"[+10]% Strength <when attacking> <when adjacent to a [Offensive Unit] unit>",
 			"Can transform to [Improved Defensive Unit] <requires [1] movement>"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Superior Defensive Unit",
@@ -433,7 +433,7 @@
 			"Can transform to [Superior Offensive Unit] <requires [1] movement>"
 		],
 		"promotions": ["Gas Mask"],
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Superior Offensive Unit",
@@ -455,7 +455,7 @@
 			"Can transform to [Superior Defensive Unit] <requires [1] movement>"
 		],
 		"promotions": ["Gas Mask"],
-		"attackSound": "machinegun"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Ultimate Defensive Unit",
@@ -480,7 +480,7 @@
 			"Powered Armor",
 			"Gas Mask"
 		],
-		"attackSound": "phasers"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Ultimate Offensive Unit",
@@ -504,7 +504,7 @@
 			"Powered Armor",
 			"Gas Mask"
 		],
-		"attackSound": "phasers"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Coordinator Unit",
