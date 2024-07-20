@@ -3,9 +3,9 @@
 	{
     "name": "Nomadic Archer",
     "uniqueTo": "Dandelion",
-    "replaces": "Crossbowman",        
+    "replaces": "Archer",        
     "unitType": "Shooter",
-    "cost": 30,
+    "cost": 25,
     "movement": 2,
     "strength": 17,
     "rangedStrength": 16,
@@ -28,7 +28,7 @@
 		"uniqueTo": "Dandelion",
 		"replaces": "Spearman",
 		"movement": 2,
-		"strength": 20,
+		"strength": 25,
 		"cost": 20,
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
@@ -559,7 +559,7 @@
 	{
 		"name": "Totem Archer",
 		"unitType": "Shooter",
-		"replaces": "Crossbowman",
+		"replaces": "Archer",
 		"uniqueTo": "The Wild",
 		"range": 1,
 		"movement": 2,
@@ -567,7 +567,7 @@
 		"rangedStrength": 15,
 		"cost": 35,
 		"hurryCostModifier": 20,
-		"requiredTech": "Steel",
+		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Totem Thunderstick",
 		"uniques": [
