@@ -1,6 +1,7 @@
 [
 	{
-		"name" : "Sea Fauna", 
+		"name" : "Sea Fauna",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn" : ["Sea Nursery"],
 		"food": 1,
 		"improvement" : "Fishing Boats",
@@ -8,9 +9,9 @@
 	},
 	{
 		"name": "Underground Space",
-		"resourceType":"Bonus",
+		"resourceType": "Bonus",
 		"improvement": "Underground Base",
-		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"terrainsCanBeFoundOn": ["Jungle", "Forest","Wasteland","Badlands","Tundra","Permafrost"],
 		"improvementStats" : {"production": 1}
 	},
 	{
