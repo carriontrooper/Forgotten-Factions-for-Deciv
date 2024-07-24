@@ -5,14 +5,21 @@
 		"terrainsCanBeFoundOn" : ["Sea Nursery"],
 		"food": 1,
 		"improvement" : "Fishing Boats",
-		"improvementStats" : {"science": 1, "food": 1} 
+		"improvementStats" : {"science": 1, "food": 1},
+		"uniques": [
+			"Generated on every [10] tiles <in [Sea Nursery] tiles>",
+		]
 	},
 	{
 		"name": "Underground Space",
 		"resourceType": "Bonus",
 		"improvement": "Underground Base",
-		"terrainsCanBeFoundOn": ["Jungle", "Forest","Wasteland","Badlands","Tundra","Permafrost"],
-		"improvementStats" : {"production": 1}
+		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
+		"improvementStats" : {"production": 1},
+		"uniques": [
+			"Generated on every [30] tiles <in [Jungle] tiles>",
+			"Generated on every [30] tiles <in [Forest] tiles>",
+		]
 	},
 	{
 		"name": "Fungal Tea",
