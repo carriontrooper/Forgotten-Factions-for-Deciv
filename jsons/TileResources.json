@@ -13,7 +13,7 @@
 	{
 		"name": "Underground Space",
 		"resourceType": "Bonus",
-		"improvement": "Underground Base",
+		"improvedBy": ["Underground Base", "Borough"],
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvementStats" : {"production": 1},
 		"uniques": [
