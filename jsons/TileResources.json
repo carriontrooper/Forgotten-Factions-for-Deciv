@@ -17,8 +17,8 @@
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
 		"improvementStats" : {"production": 1},
 		"uniques": [
-			"Generated on every [30] tiles <in [Jungle] tiles>",
-			"Generated on every [30] tiles <in [Forest] tiles>",
+			"Generated on every [10] tiles <in [Jungle] tiles>",
+			"Generated on every [10] tiles <in [Forest] tiles>",
 		]
 	},
 	{
