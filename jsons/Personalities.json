@@ -280,7 +280,7 @@
 			"Bionics": 0
 		}
 	}
-	/*
+	
 	{
 		"name": "El Unificador",
 		"preferredVictoryType": "Domination",
@@ -417,5 +417,5 @@
 			"Bionics": 10
 		},
 	}
-	*/
+	
 ]
