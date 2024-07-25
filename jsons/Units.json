@@ -765,7 +765,7 @@
 
 	// Arkadian
         {
-		"name": "Sonic Cannon",
+		"name": "Sonic Cannonneer",
 		"replaces": "Cannon",
                 "uniqueTo": "Arkadia",
 		"unitType": "Siege",
