@@ -646,8 +646,8 @@
 		//"afterPeace": "If the two of us can get along, then perhaps there's hope.",
 		"tradeRequest": "If we stick together, I give you my word. We won't just survive. We'll thrive.",
 
-		"outerColor": [6, 255, 6],
-		"innerColor": [3, 0, 77],
+		"innerColor": [63, 176, 35],
+		"outerColor": [24, 52, 102],
 		"style": "Arkadio",
 		"uniqueName": "From the Stars",
                 "uniques": [
@@ -706,8 +706,8 @@
 		//"afterPeace": "Do you realize now who is superior?",
 		"tradeRequest": "Wark? (What about this?)",
 
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,255,255],
+		"outerColor": [69, 79, 82],
+		"innerColor": [176, 213, 255],
 		"uniqueName": "Superior Spheniscidae",
 		"uniques": [
 			"All newly-trained [Land] units [in all cities] receive the [Amphibious] promotion",
@@ -770,7 +770,7 @@
 		//"afterPeace": "",
 		"tradeRequest": "I feel merciful today.",
 
-		"outerColor": [20, 20, 20],
+		"outerColor": [70, 50, 50],
 		"innerColor": [195,22,22],
 		"style": "Barbarians",
 		"uniqueName": "The Great Unification",
