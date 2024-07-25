@@ -29,4 +29,15 @@
 		"name": "Microchip",
 		"resourceType": "Luxury"
 	}
+
+	/*
+	{
+		"name": "Coffee", //Unique to Nuevo Paraíso, doesn't spawn on map
+		"resourceType": "Luxury",
+		"production": 1,
+                "uniques": [
+			"[+5]% Production when constructing [All] buildings [in this city]",
+	        ]
+         },
+	*/
 ]
