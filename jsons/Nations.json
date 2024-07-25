@@ -238,7 +238,8 @@
         "style": "Corporate",
         "startBias": [
             //"Tundra", 
-            "Avoid [Desert]"
+            //"Avoid [Desert]",
+		"Jungle",
         ],
         "preferredVictoryType": "Diplomatic",
         "favoredReligion": "Ghost Dance",
