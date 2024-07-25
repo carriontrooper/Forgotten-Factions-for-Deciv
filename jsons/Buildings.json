@@ -1407,7 +1407,7 @@
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
-			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
 		]
 	},
