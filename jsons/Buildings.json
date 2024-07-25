@@ -1127,7 +1127,7 @@
                 "faith": 2,
                 "science": 2,
 		"uniques": [
-			"Requires a [Schola Latina] in all cities",
+			"Only available <if [Schola Latina] is constructed in all [non-[Puppeted]] cities",
 			"Cost increases by [30] per owned city",
 			"Destroyed when the city is captured",
 			"Only available <after adopting [Rationalism]>",
@@ -1403,14 +1403,14 @@
 		"faith": 8,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"Requires a [Shrine] in all cities",
+			"Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
 			"[+1 Gold, +2 Culture] from each Trade Route",
 			"Cost increases by [15] per owned city",
-			"Can only be built [in holy cities]",
+			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
 			"Hidden when religion is disabled",
 			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
-			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion"
 		]
 	},
         {
