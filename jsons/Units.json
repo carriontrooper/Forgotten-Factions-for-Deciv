@@ -3,7 +3,7 @@
 	{
     "name": "Nomadic Archer",
     "uniqueTo": "Dandelion",
-    "replaces": "Archer",        
+    "replaces": "Archer",
     "unitType": "Shooter",
     "cost": 25,
     "movement": 2,
@@ -735,4 +735,116 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	}
+
+/*
+	// Nuevo Paraiso
+	{
+		"name": "Llanero",
+    		"replaces": "Hussar",
+    		"uniqueTo": "Nuevo Paraíso",
+		"unitType": "Mounted",
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 34,
+		"cost": 75,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+                        "Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"Only available <in cities with a [Stable]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Pursuit"]
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+
+	// Arkadian
+        {
+		"name": "Sonic Cannoneer",
+		"replaces": "Cannon",
+                "uniqueTo": "Arkadia",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 25,
+		"cost": 130,
+		"requiredTech": "Steel",
+		"upgradesTo": "Artillery",
+		"obsoleteTech": "Munitions",
+		"uniques": [
+			"Personnel"
+			"[+25]% Strength <vs [Low Tech] units>",
+			"[+33]% Strength <vs [Mounted] units>",
+			"[-50]% Strength <vs [Armored] units> <when attacking> ",
+			"Consumes [1] [Weapons]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cannon",
+	},
+
+	// Raider Kingdom
+	{
+		"name": "Ambusher",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Raider Kingdom",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 40,
+		"hurryCostModifier": 20,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Ignores terrain cost",
+			"Invisible to non-adjacent units"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spotter",
+		"replaces": "Scout",
+		"uniqueTo": "Raider Kingdom",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 12,
+		"cost": 25,
+		"upgradesTo": "Attack Vehicle",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[-50]% Strength <vs cities>",
+			"Unable to capture cities"
+		],
+		"promotions": ["Reconnaissance I", "Skirmish", "Sentry"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Blessed General",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Raider Kingdom",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can see over obstacles",
+			"Ignores terrain cost",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"[-10%] Strength for enemy [Military] units in adjacent [All] tiles",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+*/
 ]

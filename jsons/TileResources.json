@@ -1,17 +1,25 @@
 [
 	{
-		"name" : "Sea Fauna", 
+		"name" : "Sea Fauna",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn" : ["Sea Nursery"],
 		"food": 1,
 		"improvement" : "Fishing Boats",
-		"improvementStats" : {"science": 1, "food": 1} 
+		"improvementStats" : {"science": 1, "food": 1},
+		"uniques": [
+			"Generated on every [10] tiles <in [Sea Nursery] tiles>",
+		]
 	},
 	{
 		"name": "Underground Space",
-		"resourceType":"Bonus",
-		"improvement": "Underground Base",
+		"resourceType": "Bonus",
+		"improvedBy": ["Underground Base", "Borough"],
 		"terrainsCanBeFoundOn": ["Jungle", "Forest"],
-		"improvementStats" : {"production": 1}
+		"improvementStats" : {"production": 1},
+		"uniques": [
+			"Generated on every [10] tiles <in [Jungle] tiles>",
+			"Generated on every [10] tiles <in [Forest] tiles>",
+		]
 	},
 	{
 		"name": "Fungal Tea",
@@ -21,4 +29,15 @@
 		"name": "Microchip",
 		"resourceType": "Luxury"
 	}
+
+	/*
+	{
+		"name": "Coffee", //Unique to Nuevo Paraíso, doesn't spawn on map
+		"resourceType": "Luxury",
+		"production": 1,
+                "uniques": [
+			"[+5]% Production when constructing [All] buildings [in this city]",
+	        ]
+         },
+	*/
 ]
