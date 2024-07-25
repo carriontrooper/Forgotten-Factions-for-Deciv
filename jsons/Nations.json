@@ -571,7 +571,6 @@
 		]
 	}
 	
-	/*
 	{
 		"name": "Nuevo Paraíso",
 		"leaderName": "Salazar El Unificador",
@@ -725,25 +724,25 @@
 		],
 		"cities": [
 			"Pingüineton",
-			"Pescado",
-			"Hielo Pescadil",
-			"Pescado Congelado",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			""
+			"Pescado Grande",
+			"Pescado Helado",
+			"Pez Congelado",
+			"Pescado Frio",
+			"Montaña Congelada",
+			"Valle Helado",
+			"Llanuras Heladas",
+			"Costa Helada",
+			"Costa Nevada",
+			"Montaña Nevada",
+			"Llanuras Ventosas",
+			"Playa Cangrejo",
+			"Playa Fria",
+			"Valle Frio",
+			"Valle Nevada",
+			"Montaña Nevada",
+			"Montaña Ventosa",
+			"Playa Blanco",
+			"Playa Nevada"
 		],
 		"civilopediaText": [
 			{
@@ -790,5 +789,5 @@
 			"The King's Seat"
 		]
 	}
-	*/
+	
 ]
