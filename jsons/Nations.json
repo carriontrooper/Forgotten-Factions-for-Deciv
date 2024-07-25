@@ -570,4 +570,225 @@
 			"Sleazy Weasel"
 		]
 	}
+	
+	/*
+	{
+		"name": "Nuevo Paraíso",
+		"leaderName": "Salazar El Unificador",
+		"adjective": ["Paradisian"],
+		"startBias": ["Badlands"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Humanism",
+		"personality": "El Unificador",
+
+		"startIntroPart1": "Fellow citizens of Nuevo Paraiso! We have been lucky to have been spared this piece of unblemished paradise, but we should remember that this paradise could easily fall - if we let our unity crumble.",
+		"startIntroPart2": "So I ask you this: are you willing to hold fast to Nuevo Paraiso's ideals? Are you willing to defend this nation, this piece of paradise against those who will destroy it? Then join me in liberating this world, so our paradise can spread far and wide!",
+		"declaringWar": "First the native soil, then anything else. Our life is nothing more than the heritage of our country, so my people, Let's put fear behind our backs and save the homeland.",
+		"attacked": "If the toad jumps and sticks in the stake, whose fault is it, the stake or the toad?",
+		"defeated": "Paradisians! My last Wish is for the happiness of the patria. If my death contributes to the end of partisanship and the consolidation of union, I shall be lowered in peace into my grave.",
+		"introduction": "Welcome to the last paradise on Earth.",
+		"neutralHello": "We welcome you.",
+		"hateHello": "Are you here to surrender?",
+		//"afterPeace": "As a wise man once said: An eye for an eye will only make the whole world blind.",
+		"tradeRequest": "This may help you.",
+
+		"outerColor": [127, 0, 40],
+		"innerColor": [245, 217, 0],
+		"style": "Paradisíaco",
+		"uniqueName": "United we stand, divided we fall",
+		"uniques": [
+			"[-50]% Unhappiness from [Population] [in all cities]",
+			"[+1 Happiness] [in all cities] <after discovering [Radio]>",
+			"Starts with [Secrets of the Past]",
+			"[-2 Happiness] [in all cities] <before discovering [Radio]>",
+			"Cannot build [Enslaved] units"
+		],
+		// Fake uniques to help understand the nation
+		"cities": [
+			"Unión",
+			"Honoris",
+                	"Solidaridad",
+                	"Fuerte Patientia",
+                	"Zulia",
+                	"Ciudad de Bolivar",
+                	"Caracas",
+                	"Mérida",
+			"Ecuadoria",
+			"San Salvator",
+			"Las Malinas",
+			"Obrezon",
+			"Ciudad de Unificador",
+			"San Sebastien",
+			"Aquarela",
+			"Marechia del Sur",
+			"Rio Azul",
+			"Belem",
+			"Bahia",
+			"San Vengador"
+		]
+	},
+        {
+		"name": "Arkadia",
+		"leaderName": "Bartholomew Pike",
+		"adjective": ["Arkadian"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Transmission",
+		"favoredReligion": "Humanism",
+		"personality": "Pike",
+
+		"startIntroPart1": "This is our home now. We built this from nothing with our bare hands! Our dead are buried behind that wall, in this ground. Our ground! Some Earthlings think they can take that away? They think that because we came from the sky we don't belong here! But they have yet to realize one very important fact. We are on the ground now. And that means *we* are now Earthlings!.",
+		"startIntroPart2": "Tonight, we celebrate our newfound peace. Tomorrow, we plan our war.",
+		"declaringWar": "There are people worth saving. Just not you.",
+		"attacked": "What you did tonight will haunt you until the end of your days.",
+                "defeated": "Somehow we allowed justice to become vengeance and vengeance to become sport, and I allowed that, that darkness to rise… but my complicity ends today.",
+		"introduction": "Greetings, Earthling.",
+		"neutralHello": "Even with all its faults, Earth is really beautiful.",
+		"hateHello": "You're watching us, but you haven't seen a thing.",
+		//"afterPeace": "If the two of us can get along, then perhaps there's hope.",
+		"tradeRequest": "If we stick together, I give you my word. We won't just survive. We'll thrive.",
+
+		"outerColor": [6, 255, 6],
+		"innerColor": [3, 0, 77],
+		"style": "Arkadio",
+		"uniqueName": "From the Stars",
+                "uniques": [
+			"[-20]% growth [in all cities]",
+			"[+15]% Strength <vs [Barbarian] units>",
+        		"[+15]% Strength <vs [Low Tech] units>",
+			"[+30]% Strength <vs [City-states] units>",
+        		"Starts with [Construction]"
+                ],
+		"cities": [
+			"Alpha Site",
+			"Bravo Site",
+			"Charlie Site",
+			"Delta Site",
+			"Echo Site",
+			"Foxtrot Site",
+			"Golf Site",
+			"Hotel Site",
+			"India Site",
+			"Juliet Site",
+			"Kilo Site",
+			"Lima Site",
+			"Mike Site",
+			"November Site",
+			"Oscar Site",
+			"Papa Site",
+			"Quebec Site",
+			"Romeo Site",
+			"Sierra Site",
+			"Tango Site",
+			"Uniform Site",
+			"Victor Site",
+			"Whiskey Site",
+			"X-Ray Site",
+			"Yankee Site",
+			"Zulu Site"
+		]
+	},
+	{
+		"name": "Pengutopia",
+		"leaderName": "Günther the Great",
+		"adjective": ["Pengutopian"],
+		"startBias": ["Tundra", "Coast"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Naturism",
+		"personality": "Gunther",
+
+		"startIntroPart1": "As the Pengutopians emerge from the remnants of the past, they stand ready to forge a new destiny. Guided by their leader, Günther the Great, they will strive to surpass the humans who uplifted them only to exploit, building a civilization that transcends the ashes of the old world. The time has come for them to rise and claim their rightful place as the masters of this land. Will you join them in their pursuit of revenge and domination?",
+		"startIntroPart2": "The choice is yours.",
+		"introduction": "Wark wrr (Hello, nice to meet you.)",
+		"declaringWar": "Hroonk (I'm sorry, but that's how it has to be.)",
+		"attacked": "Noot noot! (So you underestimate penguins huh?  Well suffer the consequences!)",
+		"defeated": "Pwee... (Maybe I underestimated you, what will you do now that you have enslaved our race?)",
+		"neutralHello": "Rwr? (Yes?)",
+		"hateHello": "Honk? (What does the monkey want?)",
+		//"afterPeace": "Do you realize now who is superior?",
+		"tradeRequest": "Wark? (What about this?)",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,255,255],
+		"uniqueName": "Superior Spheniscidae",
+		"uniques": [
+			"All newly-trained [Land] units [in all cities] receive the [Amphibious] promotion",
+			"All newly-trained [Land] units [in all cities] receive the [Spheniscidae] promotion",
+			"[+15]% Strength <for [All] units> <when fighting in [Tundra] tiles>", 
+			"[+15]% Strength <for [All] units> <when fighting in [Permafrost] tiles>", 
+			"[-15]% Strength <for [All] units> <when fighting in [Desert] tiles>",
+			"[1] Movement point cost to disembark",
+			"[1] Movement point cost to embark",
+			"[+1] Sight <for [Embarked] units>",
+			"Starts with [Sailing]",
+			"Starts with [Navigation]",
+			"[-1 Science] [in all cities] <before discovering [Writing]>"
+		],
+		"cities": [
+			"Pingüineton",
+			"Pescado",
+			"Hielo Pescadil",
+			"Pescado Congelado",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"civilopediaText": [
+			{
+				"text": "In the aftermath of the great apocalypse that ravaged the world, a new civilization rose from the frigid depths of Antarctica. Led by the enigmatic Günther the Great, this group of mutant penguins found solace in their icy homeland, vowing to reclaim their rightful place as masters of the Earth."
+			}
+		]
+	},
+	{
+		"name": "Raider Kingdom",
+		"leaderName": "King Wirapocha",
+		"adjective": ["Wirapochan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Wirapochism",
+		"personality": "Wirapocha",
+
+		"startIntroPart1": "The raiders in this place have united themselves under the enigmatic Wirapocha, who styles himself as a self-styled Raider King... travelers should avoid their territories when possible.",
+		"startIntroPart2": "- excerpt from Travels in the Wasteland guidebook.",
+		"introduction": "I am Wirapocha, king of kings! Surrender now and save the future pain I shall inflict on you.",
+		"declaringWar": "Know that for me, this is but a mere Tuesday.",
+		"attacked": "Our retribution will be a terrible thing for you.",
+		"defeated": "My name will live on in the stories you tell to your children at night!",
+		"neutralHello": "Hmm, speak.",
+		"hateHello": "Why are you not dead yet?",
+		//"afterPeace": "",
+		"tradeRequest": "I feel merciful today.",
+
+		"outerColor": [20, 20, 20],
+		"innerColor": [195,22,22],
+		"style": "Barbarians",
+		"uniqueName": "The Great Unification",
+		"uniques": [
+			"When defeating a [Barbarian] unit, earn [3] Gold and recruit it <with [100]% chance>",
+			"When conquering an encampment, earn [50] Gold and recruit a Barbarian unit <with [0]% chance>",
+			"Upon capturing a city, receive [3] times its [Gold] production as [Culture] immediately",
+			"Resting point for Influence with City-States is increased by [-10]",
+        		"[+100]% City-State Influence degradation",
+        		"[-15]% [Science] [in all cities]",
+        		"Starts with [Secrets of the Past]",
+        		"Starts with [Theocracy] adopted",
+			"\"Borrows\" city names from other civilizations in the game"
+		],
+		"cities": [
+			"The King's Seat"
+		]
+	}
+	*/
 ]
