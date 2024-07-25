@@ -3,7 +3,7 @@
 	{
     "name": "Nomadic Archer",
     "uniqueTo": "Dandelion",
-    "replaces": "Archer",        
+    "replaces": "Archer",
     "unitType": "Shooter",
     "cost": 25,
     "movement": 2,
@@ -765,7 +765,7 @@
 
 	// Arkadian
         {
-		"name": "Sonic Cannonneer",
+		"name": "Sonic Cannoneer",
 		"replaces": "Cannon",
                 "uniqueTo": "Arkadia",
 		"unitType": "Siege",
