@@ -1125,7 +1125,7 @@
                 "faith": 2,
                 "science": 2,
 		"uniques": [
-			"Only available <if [Schola Latina] is constructed in all [non-[Puppeted]] cities",
+			"Only available <if [Schola Latina] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Destroyed when the city is captured",
 			"Only available <after adopting [Rationalism]>",
