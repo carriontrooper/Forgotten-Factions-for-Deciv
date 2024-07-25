@@ -191,7 +191,7 @@
 		"uniques": [
 			"Nuclear weapon of Strength [2]",
 			"Blast radius [2]",
-			"Only available if [Manhattan Project] is constructed",
+			"Only available <if [Manhattan Project] is constructed>",
 			"Consumes [2] [Uranium]"
 		]
 		//"blastRadius": 2,
