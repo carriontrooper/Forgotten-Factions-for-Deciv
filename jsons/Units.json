@@ -736,7 +736,7 @@
 		"attackSound": "shot"
 	}
 
-/*
+
 	// Nuevo Paraiso
 	{
 		"name": "Llanero",
@@ -846,5 +846,5 @@
 		],
 		"movement": 2
 	},
-*/
+
 ]
