@@ -1090,7 +1090,7 @@
 			"Destroyed when the city is captured"
 		]
 	},
-/*
+
 	// Nuevo Paraiso
 	{
 		"name": "Assign Survivors",
@@ -1443,7 +1443,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-*/
 
 	//// Misc Buildings
 	{
