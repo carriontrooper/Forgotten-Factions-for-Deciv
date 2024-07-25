@@ -180,6 +180,104 @@
 		]
 	},
 
+	/*
+	// Nuevo Paraíso
+ 	{
+                "name": "Monument to the Great Unification",
+		"isWonder": true,
+		"uniqueTo": "Nuevo Paraíso",
+		"culture": 1,
+                "faith": 1,
+		"cost": 1,
+		"uniques": [
+			"Free [Llanero] appears",
+			"Gain a free [Charity Center] [in this city]",
+                        "[+1 Production] from every [Strategic resource]",
+                        "[+1 Production] from every [Luxury resource]",
+                        "[+1 Production] from every [Bonus resource]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "All of you must work for the inestimable good of the union: the people obeying the current government,to free themselves from anarchy; the ministers of the sanctuary directing their prayers to heaven;  and the military using their sword to defend social guarantees.\n-Simón Bolívar",
+	  	"civilopediaText": [{"text": "All of you must work for the inestimable good of the union: the people obeying the current government, to free themselves from anarchy; the ministers of the sanctuary directing their prayers to heaven; and the military using their sword to defend social guarantees.\n-Simón Bolívar"},]
+	},
+
+	// Arkadia
+	{
+                "name": "Landfall Memorial",
+		"isWonder": true,
+		"uniqueTo": "Arkadia",
+		"culture": 1,
+                "science": 1,
+		"cost": 1,
+		"uniques": [
+			"Free [Sonic Cannon] appears",
+			"Gain a free [Listening Post] [in this city]",
+                        "[-10]% Culture cost of adopting new Policies",
+                        "Provides [1] [Weapons]",
+                        "When declaring friendship, both parties gain a [10]% boost to great person generation",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		        "quote": "You didn't need to speak sweetly and offer patronage at every turn to these people. You had to be honest with them and show that they had more to gain from your friendship than your enmity.\n-Fonda Lee",
+	  	"civilopediaText": [
+			{
+				"text": "You didn't need to speak sweetly and offer patronage at every turn to these people. You had to be honest with them and show that they had more to gain from your friendship than your enmity.\n-Fonda Lee",
+			},
+                    ]
+	},
+
+	// Pengutopia
+	{
+                "name": "The Great Igloo",
+		"isWonder": true,
+		"uniqueTo": "Pengutopia",
+		"cost": 1,
+		"culture": 1,
+		"food": 1,
+		"cityStrength": 5,
+		"cityHealth": 30,
+		"uniques": [
+			"Gain a free [Food Store] [in this city]",
+                        "[+1 Food] from [Permafrost] tiles [in all cities]",
+                        "[+1 Food] from [Tundra] tiles [in all cities]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "Gunther's frozen throne.",
+	  	"civilopediaText": [
+			{
+				"text": "Gunther's frozen throne.",
+			},
+                   ]
+        },
+
+	// Raider Kingdom
+	{
+		"name": "God-King Castle",
+		"isWonder": true,
+		"uniqueTo": "Raider Kingdom",
+		"faith": 1,
+		"culture": 1,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"cost": 1,
+		"uniques": [
+			"May choose [1] additional [Pantheon] beliefs when [founding] a religion",
+			"[2] free [Ambusher] units appear",
+			"Gain a free [Armory] [in this city]",
+			"Can only be built <in [Capital] cities>",
+			"Automatically built in all cities where it is buildable"
+		],
+		"quote": "I am Wirapocha, king of kings! Gaze upon my conquests, ye mighty, and despair.",
+		"civilopediaText": [
+			{
+				"text": "I am Wirapocha, king of kings! Gaze upon my conquests, ye mighty, and despair."
+			}
+		]
+	},
+	*/
+
 	//// Uniques
 	// Dandelion
 	{
@@ -457,60 +555,60 @@
 			"Only available <in cities with a [Library]>", 
 			"[+1 Production] [in this city] <with [Machine Parts]>", 
 			"[+1 Production] from [Machine Parts] tiles [in this city]", 
-			"[+3 Production] [in this city] <with [Power]>", 
+			"[+3 Production] [in this city] <with [Power]>"
 		], 
-		"requiredTech": "Manufacturing", 
-    }, 
-	{
-    "name": "Reeducation Camp", 
-    "replaces": "Prison Camp", 
-    "uniqueTo": "Central State", 
-    "cost": 30, 
-    "food": -2, 
-    "culture": -1, 
-    "happiness": 3,
-    "hurryCostModifier": 25, 
-    "uniques": [
-                "Provides [1] [Slaves]", 
-                "Only available <in cities without a [Listening Post]>", 
-                "Destroyed when the city is captured", 
-                "Can only be built <in [Annexed] cities>", 
-                "Remove extra unhappiness from annexed cities", 
-                "[+1 Science] per [3] population [in this city]", 
-     ], 
-    "requiredTech": "Construction", 
+		"requiredTech": "Manufacturing"
 	}, 
 	{
-    "name": "Hall Of The People", 
-    "replaces": "Congress", 
-    "uniqueTo": "Central State",
-	"greatPersonPoints": {"Great Administrator": 2},
-    "cost": 100, 
-    "hurryCostModifier": 25,
-    "uniques": [
-                "[+1 Culture] per [4] population [in all cities]", 
-                "[+1 Happiness] per [2] social policies adopted", 
-                "Can only be built <in [Capital] cities>", 
-                "Only available <in cities without a [Inner Palace Chamber]>",
-                "Destroyed when the city is captured", 
-     ], 
-    "requiredTech": "Civil Service", 
+		"name": "Reeducation Camp", 
+		"replaces": "Prison Camp", 
+		"uniqueTo": "Central State", 
+		"cost": 30, 
+		"food": -2, 
+		"culture": -1, 
+		"happiness": 3,
+		"hurryCostModifier": 25, 
+		"uniques": [
+	                "Provides [1] [Slaves]", 
+	                "Only available <in cities without a [Listening Post]>", 
+	                "Destroyed when the city is captured", 
+	                "Can only be built <in [Annexed] cities>", 
+	                "Remove extra unhappiness from annexed cities", 
+	                "[+1 Science] per [3] population [in this city]"
+		], 
+		"requiredTech": "Construction"
 	}, 
 	{
-    "name": "Inner Palace Chamber", 
-    "replaces": "Council", 
-    "uniqueTo": "Central State", 
-    "cost": 50, 
-    "hurryCostModifier": 25, 
-    "uniques": [
-                "[+20]% Production when constructing [Siege] units [in capital]", 
-                "[+10]% Production when constructing [Armor] units [in capital]",
-                "[+1 Gold] from each Trade Route", 
-                "Can only be built <in [Capital] cities>", 
-                "Only available <in cities without a [Hall Of The People]>", 
-                "Destroyed when the city is captured", 
-    ], 
-    "requiredTech": "Civil Service", 
+		"name": "Hall Of The People", 
+		"replaces": "Congress", 
+		"uniqueTo": "Central State",
+		"greatPersonPoints": {"Great Administrator": 2},
+		"cost": 100, 
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]", 
+	                "[+1 Happiness] per [2] social policies adopted", 
+	                "Can only be built <in [Capital] cities>", 
+	                "Only available <in cities without a [Inner Palace Chamber]>",
+	                "Destroyed when the city is captured"
+		], 
+		"requiredTech": "Civil Service" 
+	},
+	{
+		"name": "Inner Palace Chamber", 
+		"replaces": "Council", 
+		"uniqueTo": "Central State", 
+		"cost": 50, 
+		"hurryCostModifier": 25, 
+		"uniques": [
+	                "[+20]% Production when constructing [Siege] units [in capital]", 
+	                "[+10]% Production when constructing [Armor] units [in capital]",
+	                "[+1 Gold] from each Trade Route", 
+	                "Can only be built <in [Capital] cities>", 
+	                "Only available <in cities without a [Hall Of The People]>", 
+	                "Destroyed when the city is captured"
+		], 
+		"requiredTech": "Civil Service",
 	},
 
 	// Blue Sun
@@ -992,6 +1090,360 @@
 			"Destroyed when the city is captured"
 		]
 	},
+/*
+	// Nuevo Paraiso
+	{
+		"name": "Assign Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Nuevo Paraíso",
+                "civilopediaText": [{"text": "The way to govern well is to employ honest men, even if they are our enemies.\n-Simón Bolívar"},]
+		"cost": 20,
+		"isNationalWonder": true,
+		"uniques": [
+			"Free [Worker] appears",
+                        "[+1 Production] per [4] population [in this city]"
+		]
+                "quote": "The way to govern well is to employ honest men, even if they are our enemies.\n-Simón Bolívar",
+	},
+  	{
+		"name": "Biomass Plant",
+    		"uniqueTo": "Nuevo Paraíso",
+		"Cost": 170,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Provides [3] [Power]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Ecology"
+	},
+	{
+		"name": "Collegium Moralis",
+    		"uniqueTo": "Nuevo Paraíso",
+		"isNationalWonder": true,
+		"replaces": "Grand Monastery",
+		"requiredTech": "Civil Service",
+		"culture": 2,
+                "faith": 2,
+                "science": 2,
+		"uniques": [
+			"Requires a [Schola Latina] in all cities",
+			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured",
+			"Only available <after adopting [Rationalism]>",
+			"Hidden when religion is disabled",
+                        "Gain a free [Pantheon] belief"
+		],
+                 "quote": "We are not perfect, but we are capable of conceiving what perfection is.  Action is preferable to inaction and commitment to life is preferable to apathetic indifference.\n–Antonio Guzman Blanco.",
+	  	"civilopediaText": [{"text": "We are not perfect, but we are capable of conceiving what perfection is.  Action is preferable to inaction and commitment to life is preferable to apathetic indifference.\n–Antonio Guzman Blanco."},]
+	},
+	{
+		"name": "Schola Latina",
+                "replaces": "Monastery",
+    		"uniqueTo": "Nuevo Paraíso",
+		"faith": 1,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Faith] per [4] population [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Charity Center",
+		"replaces": "Shrine",
+    		"uniqueTo": "Nuevo Paraíso",
+		"faith": 1,
+                "maintenance": 0,
+		"percentStatBonus": { "gold": 5 }
+		"uniques": [
+			"Destroyed when the city is captured",
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Secrets of the Past"
+	},
+        {
+		"name": "National Assembly",
+		"replaces": "Congress",
+		"uniqueTo": "Nuevo Paraíso",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		   	"[+1 Culture] per [4] population [in all cities]",
+			"[+1 Science] per [4] population [in all cities]",
+                        "[15]% Food is carried over after population increases [in all cities]",
+			"Can only be built <in [Capital] cities>",
+                        "Only available <in cities without a [Defense Parliament]>",
+			"Destroyed when the city is captured"
+                 ]
+          },
+          {
+		"name": "Defense Parliament",
+		"uniqueTo": "Nuevo Paraíso",
+                "replaces": "Council",
+		"cost": 50,
+		"uniques": [
+			"Double quantity of [Oil] produced",
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                        "[-25]% maintenance costs <for [All] units>",
+                        "[+1] Sight <for [All] units>",
+			"Destroyed when the city is captured",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [National Assembly]>"
+		],
+                "requiredTech": "Civil Service"
+	},
+        {
+		"name": "Public Debate Chamber",
+                "replaces": "Megachurch",
+                "uniqueTo": "Nuevo Paraíso",
+		"faith": 1,
+		"science": 1,
+		"culture": 1,
+		"percentStatBonus": {"faith": 5},
+		"percentStatBonus": {"culture": 5},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Social Engineering",
+		"uniques": [
+			"Only available <in cities with a [Schola Latina]>",
+			"Hidden when religion is disabled",
+                        "Destroyed when the city is captured",
+			"[+50]% Natural religion spread [in this city]"
+		]
+	},
+        {
+		"name": "Coffee Hacienda",
+                "uniqueTo": "Nuevo Paraíso",
+		"culture": 1,
+                "replaces": "Distillery",
+		"happiness": 1,
+		"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Coffee]",
+                        "Destroyed when the city is captured"
+                ],
+		"requiredNearbyImprovedResources": ["Grain"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany"
+	},
+
+	// Arkadian
+	{
+		"name": "Mount Weather",
+		"replaces": "Bomb Shelter",
+		"uniqueTo": "Arkadia",
+		"isNationalWonder": true,
+		"food": 2,
+		"production": 3,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"science": 3,
+		"gold": 1,
+		"culture": 1,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"[+1 Food, +1 Gold] from each Trade Route",
+	                "[+1 Production] [in all cities connected to capital]"
+		]
+	},
+        {
+		"name": "Search for Arkadians",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Arkadia",
+		"cost": 35,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]",
+			"Free [Great Scientist] appears"
+		],
+	},
+        {
+		"name": "Arkadian Triumvirate",
+		"replaces": "Congress",
+		"uniqueTo": "Arkadia",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		   	"[+1 Science] per [4] population [in all cities]",
+			"[+10]% City Strength from defensive buildings",
+			"[+1 Happiness] [in all cities connected to capital]",
+			"Can only be built <in [Capital] cities>",
+                        "Only available <in cities without a [Alliance Council]>",
+                        "Only available <if [Search for Arkadians] is constructed>",
+			"Destroyed when the city is captured"
+                 ]
+          },
+          {
+		"name": "Alliance Council",
+		"replaces": "Council",
+		"uniqueTo": "Arkadia",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"Resting point for Influence with City-States is increased by [15]",
+			"[-25]% City-State Influence degradation",
+			"When declaring friendship, both parties gain a [5]% boost to great person generation",
+			"Only available <if [Search for Arkadians] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Arkadian Triumvirate]>",
+			"Destroyed when the city is captured"
+		]
+	},
+
+	// Pengutopia
+	{
+		"name": "Save Penguins",
+		"cost": 20,
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Pengutopia",
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in all cities]",
+			"Free [Civilian Convoy] appears"
+		]
+	},
+        {
+                "name": "Stilt Houses",
+                "uniqueTo": "Pengutopia",
+                "replaces": "Harbor",
+                "cost": 35,
+                "maintenance": 0,
+                "culture": 1,
+                "hurryCostModifier": 25,
+                "uniques": [
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]",
+			"[+1 Culture] from [Coast] tiles [in this city]"
+		],
+		"requiredTech": "Navigation"
+	},
+        {
+                "name": "Stilt City",
+                "uniqueTo": "Pengutopia",
+                "replaces": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"culture": 1,
+		"gold":1,
+		"uniques": [
+			"[+1 Production] from [Water resource] tiles [in this city]",
+                        "[+1 Science] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]",
+			"[+15]% Production when constructing [Water] units [in this city]",
+			"Only available <in cities with a [Stilt Houses]>"
+		],
+		"requiredTech": "Oceanography"
+          },
+          {
+		"name": "Club Penguin",
+		"replaces": "Market",
+		"uniqueTo": "Pengutopia",
+		"gold": 1,
+		"happiness": 1,
+		"specialistSlots": { "Merchant": 2 },
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]","[+1 Culture] per [6] population [in this city]"
+		],
+		"requiredTech": "Trade"
+	 },
+
+	// Raider Kingdom
+	{
+		"name": "God-King Statue",
+		"replaces": "Monument",
+		"uniqueTo": "Raider Kingdom",
+		"culture": 2,
+		"faith": 1,
+		"cost": 40,
+		"hurryCostModifier": 40
+	},
+        {
+		"name": "Trial by Combat",
+		"replaces": "Listening Post",
+		"uniqueTo": "Raider Kingdom",
+		"maintenance": 1,
+		"happiness": 1,
+	        "culture": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"[+10]% Great Person generation [in this city]",
+			"[+25]% Great Person generation [in this city] <after adopting [Supremacy]>",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Civil Service"
+	},
+        {
+		"name": "Martial Monastery",
+		"replaces": "Monastery",
+		"uniqueTo": "Raider Kingdom",
+		"faith": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": [
+			"Only available <in cities with a [Shrine]>",
+			"New [Military] units start with [10] Experience [in this city]",
+			"Hidden when religion is disabled"
+		]
+	},
+        {
+		"name": "Grand Cathedral",
+		"isNationalWonder": true,
+		"replaces": "Grand Monastery",
+		"uniqueTo": "Raider Kingdom",
+		"culture": 4,
+		"faith": 8,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Requires a [Shrine] in all cities",
+			"[+1 Gold, +2 Culture] from each Trade Route",
+			"Cost increases by [15] per owned city",
+			"Can only be built [in holy cities]",
+			"Only available <after adopting [Theocracy]>",
+			"Hidden when religion is disabled",
+			"[Philosopher] units built [in this city] can [Spread Religion] [1] extra times",
+			"[Great Sage] units built [in this city] can [Spread Religion] [1] extra times"
+		]
+	},
+        {
+		"name": "Royal Advisors",
+		"replaces": "Council",
+		"uniqueTo": "Raider Kingdom",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Nobles' Gathering]>",
+			"Destroyed when the city is captured"
+		]
+	},
+        {
+		"name": "Nobles' Gathering",
+		"replaces": "Congress",
+		"uniqueTo": "Raider Kingdom",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[+1 Science] per [4] population [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Royal Advisors]>",
+			"Destroyed when the city is captured"
+		]
+	},
+*/
 
 	//// Misc Buildings
 	{
