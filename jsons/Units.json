@@ -777,6 +777,7 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Munitions",
 		"uniques": [
+			"Personnel"
 			"[+25]% Strength <vs [Low Tech] units>",
 			"[+33]% Strength <vs [Mounted] units>",
 			"[-50]% Strength <vs [Armored] units> <when attacking> ",
