@@ -1226,6 +1226,27 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
 	},
+	{
+		"name": "Nuevo Paraíso cannot annex Isolationists",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "Nuevo Paraíso",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Nuevo Paraíso cannot build Prison Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Nuevo Paraíso",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Nuevo Paraíso cannot build Work Camp",
+		"replaces": "Work Camp",
+		"uniqueTo": "Nuevo Paraíso",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
 
 	// Arkadian
 	{
