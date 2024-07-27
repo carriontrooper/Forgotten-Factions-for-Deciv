@@ -570,11 +570,11 @@
 			"Snickering Octopus",
 			"Sleazy Weasel"
 		]
-	}
+	},
 	
 	{
 		"name": "Nuevo Paraíso",
-		"leaderName": "Salvador El Unificador",
+		"leaderName": "El Unificador",
 		"adjective": ["Paradisian"],
 		"startBias": ["Badlands"],
 		"preferredVictoryType": "Domination",
@@ -582,7 +582,7 @@
 		"personality": "El Unificador",
 
 		"startIntroPart1": "Fellow citizens of Nuevo Paraiso! We have been lucky to have been spared this piece of unblemished paradise, but we should remember that this paradise could easily fall - if we let our unity crumble.",
-		"startIntroPart2": "So I ask you this: are you willing to hold fast to Nuevo Paraiso's ideals? Are you willing to defend this nation, this piece of paradise against those who will destroy it? Then join me in liberating this world, so our paradise can spread far and wide!",
+		"startIntroPart2": "Thus I have taken the name of El Unificador and discarded my old one, as is the custom of our great nation. I ask you this, citizens: are you willing to hold fast to Nuevo Paraiso's ideals? Are you willing to defend this nation, this piece of paradise against those who will destroy it? Then join me in liberating this world, so our paradise can spread far and wide!",
 		"declaringWar": "First the native soil, then anything else. Our life is nothing more than the heritage of our country, so my people, Let's put fear behind our backs and save the homeland.",
 		"attacked": "If the toad jumps and sticks in the stake, whose fault is it, the stake or the toad?",
 		"defeated": "Paradisians! My last Wish is for the happiness of the patria. If my death contributes to the end of partisanship and the consolidation of union, I shall be lowered in peace into my grave.",
@@ -625,6 +625,18 @@
 			"Belem",
 			"Bahia",
 			"San Vengador"
+		],
+		"spyNames": [
+			"Salazar del Solar",
+			"Perez de la Cruz",
+			"Salvador del Corazon",
+			"Ramirez de la Rojas",
+			"Garcia del Castro",
+			"Santana del Rivera",
+			"Gomez del Medina",
+			"Diaz de la Estrada",
+			"Hernandez del Soto",
+			"Martinez de la Luna"
 		]
 	},
         {
@@ -685,6 +697,18 @@
 			"X-Ray Site",
 			"Yankee Site",
 			"Zulu Site"
+		],
+		"spyNames": [
+			"Operative Unaone",
+			"Operative Bissotwo",
+			"Operative Terrathree",
+			"Operative Kartefour",
+			"Operative Pantafive",
+			"Operative Soxisix",
+			"Operative Setteseven",
+			"Operative Oktoeight",
+			"Operative Novenine",
+			"Operative Nadazero"
 		]
 	},
 	{
@@ -745,6 +769,18 @@
 			"Playa Blanco",
 			"Playa Nevada"
 		],
+		"spyNames": [
+			"Tuxedo Double-Oh-One",
+			"Tuxedo Double-Oh-Two",
+			"Tuxedo Double-Oh-Three",
+			"Tuxedo Double-Oh-Four",
+			"Tuxedo Double-Oh-Five",
+			"Tuxedo Double-Oh-Six",
+			"Tuxedo Double-Oh-Seven",
+			"Tuxedo Double-Oh-Eight",
+			"Tuxedo Double-Oh-Nine",
+			"Tuxedo Double-Oh-Zero"
+		],
 		"civilopediaText": [
 			{
 				"text": "In the aftermath of the great apocalypse that ravaged the world, a new civilization rose from the frigid depths of Antarctica. Led by the enigmatic Günther the Great, this group of mutant penguins found solace in their icy homeland, vowing to reclaim their rightful place as masters of the Earth."
@@ -788,6 +824,18 @@
 		],
 		"cities": [
 			"The King's Seat"
+		],
+		"spyNames": [
+			"Mook",
+			"Goon",
+			"Henchman",
+			"Lackey",
+			"Minion",
+			"Toady",
+			"Clod",
+			"Stooge",
+			"Flunkey",
+			"Crony"
 		]
 	}
 	
