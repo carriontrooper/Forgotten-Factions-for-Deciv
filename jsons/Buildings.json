@@ -392,7 +392,13 @@
 		],
 		"requiredTech": "Civil Service"
 	},
-
+	{
+		"name": "Elysium cannot annex Isolationists",
+		"replaces": "Annex Isolationists",
+		"uniqueTo": "Elysium",
+		"requiredTech": "The Wheel",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
 	{
 		"name": "Elysium cannot build Council",
 		"replaces": "Council",
