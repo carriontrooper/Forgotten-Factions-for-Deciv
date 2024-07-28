@@ -198,12 +198,12 @@
 		"uniques": [
 			"[+1] Sight"
 		]
-	}
+	},
 
 	
 	{
 		"name": "Spheniscidae",
 		"uniques": ["May attack when embarked", "May travel on Water tiles without embarking"],
-	},
+	}
 	
 ]
