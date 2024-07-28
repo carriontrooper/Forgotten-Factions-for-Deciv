@@ -4,7 +4,7 @@
 	{
 		"name": "Loner",
 		"uniques": [
-			"[-10]% Strength <when adjacent to [{Dandelion} {Military}] unit>"
+			"[-10]% Strength <when adjacent to a [{Dandelion} {Military}] unit>"
 		]
 	},
 	
@@ -32,7 +32,7 @@
 	{
 		"name": "Hive Mind",
 		"uniques": [
-			"[+10]% Strength <when adjacent to [{Gestalt} {Military}] unit>"
+			"[+10]% Strength <when adjacent to a [{Gestalt} {Military}] unit>"
 		]
 	},
 	
