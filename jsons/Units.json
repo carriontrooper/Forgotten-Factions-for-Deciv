@@ -841,6 +841,7 @@
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Great Person - [War]",
+			"Can be earned through combat",
 			"Unbuildable",
 			"Uncapturable"
 		],
