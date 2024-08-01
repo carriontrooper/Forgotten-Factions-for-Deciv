@@ -45,7 +45,7 @@
 		"impassable": true,
 		"production" : 2,
 		"unbuildable": true,
-		"defenceBonus": 0.1,
+		//"defenceBonus": 0.1,
 		"occursOn": [
 			"Mountain",
 			"Hill"
