@@ -41,7 +41,8 @@
 	{
 		"name": "Pre-war Antenna",
 		"type": "TerrainFeature",
-		"movementCost": 1.5,
+		//"movementCost": 1.5,
+		"impassable": true,
 		"production" : 2,
 		"unbuildable": true,
 		"defenceBonus": 0.1,
@@ -51,7 +52,7 @@
 		],
 		"uniques": [
 			"Rare feature",
-			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
+			//"Every [9] tiles with this terrain will receive a major deposit of a strategic resource." 
 		]
 	},
 	{
