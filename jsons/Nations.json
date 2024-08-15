@@ -661,7 +661,7 @@
 
 		"innerColor": [63, 176, 35],
 		"outerColor": [24, 52, 102],
-		"style": "Arkadio",
+		//"style": "Arkadio",
 		"uniqueName": "From the Stars",
                 "uniques": [
 			"[-20]% growth [in all cities]",
