@@ -583,7 +583,7 @@
 		"requiredTech": "Construction"
 	}, 
 	{
-		"name": "Hall Of The People", 
+		"name": "Hall of the People", 
 		"replaces": "Congress", 
 		"uniqueTo": "Central State",
 		"greatPersonPoints": {"Great Administrator": 2},
