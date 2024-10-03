@@ -1,4 +1,44 @@
 [
+	//Pengutopia
+	{
+		"name": "Emperor Archer",
+                "replaces": "Archer",
+                "uniqueTo": "Pengutopia",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"cost": 50,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": ["Low Tech", 
+			"[+25]% Strength <vs [Low Tech] units>",
+                        "[+50]% Strength <vs [Melee Water] units>",
+                        "[+50]% Strength <vs [Ranged Water] units>"],
+		"attackSound": "arrow"
+	},
+        {
+		"name": "Emperor Guard",
+                "replaces": "Spearman",
+		"unitType": "Scrapper",
+                "uniqueTo": "Pengutopia",
+		"movement": 2,
+		"strength": 20,
+		"cost": 50,
+		"upgradesTo": "Militia",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Mounted] units>",
+                        "[+25]% Strength <vs [Melee Water] units>",
+                        "[+25]% Strength <vs [Ranged Water] units>"
+		],
+		"attackSound": "nonmetalhit"
+	},
 	// Dandelion
 	{
     "name": "Nomadic Archer",
