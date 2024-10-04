@@ -238,6 +238,8 @@
 		"cityHealth": 30,
 		"uniques": [
 			"Gain a free [Food Store] [in this city]",
+			"Free [Emperor Guard] appears",
+			"Free [Emperor Archer] appears",
                         "[+1 Food] from [Permafrost] tiles [in all cities]",
                         "[+1 Food] from [Tundra] tiles [in all cities]",
 			"Can only be built <in [Capital] cities>",
@@ -1377,6 +1379,18 @@
 		],
 		"requiredTech": "Trade"
 	 },
+	{
+		"name": "Fish Pond",
+                "replaces": "Distillery",
+                "uniqueTo": "Pengutopia",
+		"happiness": 2,
+                "food": 1,
+                "gold":1,
+		"maintenance": 0,
+		"uniques": ["Provides [1] [Big Fish]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
 
 	// Raider Kingdom
 	{
