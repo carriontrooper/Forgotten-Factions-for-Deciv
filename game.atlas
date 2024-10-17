@@ -692,56 +692,56 @@ ResourceIcons/Underground Space
   index: -1
 TileSets/FantasyHex/Tiles/Decryption Analysis Center
   rotate: false
-  xy: 1448, 1676
+  xy: 1408, 1640
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert Mountain
   rotate: false
-  xy: 220, 344
+  xy: 1448, 1676
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Opabinia
   rotate: false
-  xy: 1056, 1176
+  xy: 1136, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Pre-war Antenna
   rotate: false
-  xy: 1204, 1320
+  xy: 1528, 1644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sea Nursery
   rotate: false
-  xy: 556, 636
+  xy: 772, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Underground Base
   rotate: false
-  xy: 784, 812
+  xy: 1000, 1028
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Underground Space
   rotate: false
-  xy: 852, 884
+  xy: 1068, 1100
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Underground Space2
   rotate: false
-  xy: 220, 160
+  xy: 220, 164
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -830,1157 +830,1157 @@ TileSets/FantasyHex/Units/Archer-Paradisíaco
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Archer-Pengutopia
+TileSets/FantasyHex/Units/Attack Vehicle-Blue Sun
   rotate: false
   xy: 328, 542
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Attack Vehicle-Blue Sun
+TileSets/FantasyHex/Units/Attack Vehicle-Central State
   rotate: false
   xy: 386, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Attack Vehicle-Central State
+TileSets/FantasyHex/Units/Bandit-Paradisíaco
   rotate: false
   xy: 436, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Bandit-Paradisíaco
+TileSets/FantasyHex/Units/Biker-Paradisíaco
   rotate: false
   xy: 476, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Biker-Paradisíaco
+TileSets/FantasyHex/Units/Blessed General
   rotate: false
   xy: 544, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Blessed General
+TileSets/FantasyHex/Units/Cavalry-Arkadia
   rotate: false
   xy: 584, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cavalry-Arkadia
+TileSets/FantasyHex/Units/Cavalry-Blue Sun
   rotate: false
   xy: 652, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cavalry-Blue Sun
+TileSets/FantasyHex/Units/Cavalry-Central State
   rotate: false
   xy: 692, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cavalry-Central State
+TileSets/FantasyHex/Units/Cavalry-Pengutopia
   rotate: false
   xy: 760, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Cavalry-Pengutopia
+TileSets/FantasyHex/Units/Clubber
   rotate: false
   xy: 800, 1032
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Clubber
+TileSets/FantasyHex/Units/Communist Vanguard
   rotate: false
   xy: 868, 1104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Communist Vanguard
+TileSets/FantasyHex/Units/Conscript-Arkadia
   rotate: false
   xy: 908, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Conscript-Arkadia
-  rotate: false
-  xy: 976, 1212
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/NBC Conscript-Arkadia
   rotate: false
-  xy: 976, 1212
+  xy: 908, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Soldier-Arkadia
   rotate: false
-  xy: 976, 1212
+  xy: 908, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Conscript-Blue Sun
   rotate: false
-  xy: 1016, 1248
+  xy: 976, 1212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Conscript-Central State
   rotate: false
-  xy: 1084, 1320
+  xy: 1016, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Conscript-Pengutopia
   rotate: false
-  xy: 1124, 1356
+  xy: 1084, 1320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Coordinator Unit
   rotate: false
-  xy: 1192, 1428
+  xy: 1124, 1356
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Arkadia
   rotate: false
-  xy: 1232, 1464
+  xy: 1192, 1428
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Blue Sun
   rotate: false
-  xy: 1300, 1536
+  xy: 1232, 1464
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Central State
   rotate: false
-  xy: 1340, 1572
+  xy: 1300, 1536
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Pengutopia
   rotate: false
-  xy: 1408, 1644
+  xy: 1340, 1572
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dragoon-Arkadia
   rotate: false
-  xy: 260, 384
+  xy: 220, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dragoon-Blue Sun
   rotate: false
-  xy: 328, 506
+  xy: 260, 384
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dragoon-Central State
   rotate: false
-  xy: 436, 636
+  xy: 328, 506
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dragoon-Pengutopia
   rotate: false
+  xy: 436, 636
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Emperor Archer
+  rotate: false
   xy: 426, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Forward Observer-Arkadia
+TileSets/FantasyHex/Units/Emperor Guard
   rotate: false
   xy: 476, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Forward Observer-Blue Sun
+TileSets/FantasyHex/Units/Forward Observer-Arkadia
   rotate: false
   xy: 544, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Forward Observer-Pengutopia
+TileSets/FantasyHex/Units/Forward Observer-Blue Sun
   rotate: false
   xy: 516, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Foward Observer-Central State
+TileSets/FantasyHex/Units/Forward Observer-Pengutopia
   rotate: false
   xy: 584, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gate Guard
+TileSets/FantasyHex/Units/Foward Observer-Central State
   rotate: false
   xy: 652, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Administrator-Arkadia
+TileSets/FantasyHex/Units/Gate Guard
   rotate: false
   xy: 624, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Administrator-Pengutopia
+TileSets/FantasyHex/Units/Great Administrator-Arkadia
   rotate: false
   xy: 692, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Engineer-Arkadia
+TileSets/FantasyHex/Units/Great Administrator-Pengutopia
   rotate: false
   xy: 760, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Engineer-Pengutopia
+TileSets/FantasyHex/Units/Great Engineer-Arkadia
   rotate: false
   xy: 732, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Farmer-Arkadia
+TileSets/FantasyHex/Units/Great Engineer-Pengutopia
   rotate: false
   xy: 800, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Farmer-Pengutopia
+TileSets/FantasyHex/Units/Great Farmer-Arkadia
   rotate: false
   xy: 868, 1068
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great General-Arkadia
+TileSets/FantasyHex/Units/Great Farmer-Pengutopia
   rotate: false
   xy: 840, 1032
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great General-Blue Sun
+TileSets/FantasyHex/Units/Great General-Arkadia
   rotate: false
   xy: 908, 1104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great General-Central State
+TileSets/FantasyHex/Units/Great General-Blue Sun
   rotate: false
   xy: 976, 1176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great General-Pengutopia
+TileSets/FantasyHex/Units/Great General-Central State
   rotate: false
   xy: 948, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Merchant-Arkadia
+TileSets/FantasyHex/Units/Great General-Pengutopia
   rotate: false
   xy: 1016, 1212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Merchant-Pengutopia
+TileSets/FantasyHex/Units/Great Merchant-Arkadia
   rotate: false
   xy: 1084, 1284
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Sage-Arkadia
+TileSets/FantasyHex/Units/Great Merchant-Pengutopia
   rotate: false
   xy: 1056, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Sage-Pengutopia
+TileSets/FantasyHex/Units/Great Sage-Arkadia
   rotate: false
   xy: 1124, 1320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Scientist-Arkadia
+TileSets/FantasyHex/Units/Great Sage-Pengutopia
   rotate: false
   xy: 1192, 1392
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Great Scientist-Pengutopia
+TileSets/FantasyHex/Units/Great Scientist-Arkadia
   rotate: false
   xy: 1164, 1356
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gunman-Arkadia
+TileSets/FantasyHex/Units/Great Scientist-Pengutopia
   rotate: false
   xy: 1232, 1428
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gunman-Blue Sun
+TileSets/FantasyHex/Units/Gunman-Arkadia
   rotate: false
   xy: 1300, 1500
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gunman-Central State
+TileSets/FantasyHex/Units/Gunman-Blue Sun
   rotate: false
   xy: 1272, 1464
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gunman-Paradisíaco
+TileSets/FantasyHex/Units/Gunman-Central State
   rotate: false
   xy: 1340, 1536
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gunman-Pengutopia
-  rotate: false
-  xy: 1408, 1608
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Horse Rider
-  rotate: false
-  xy: 1380, 1572
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Horseman-Arkadia
+TileSets/FantasyHex/Units/Gunman-Paradisíaco
   rotate: false
   xy: 1448, 1640
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Horseman-Blue Sun
+TileSets/FantasyHex/Units/Gunman-Pengutopia
   rotate: false
   xy: 1488, 1680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Horseman-Central State
+TileSets/FantasyHex/Units/Horse Rider
   rotate: false
-  xy: 220, 308
+  xy: 220, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Horseman-Pengutopia
+TileSets/FantasyHex/Units/Horseman-Arkadia
   rotate: false
   xy: 260, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hussar-Arkadia
+TileSets/FantasyHex/Units/Horseman-Blue Sun
   rotate: false
   xy: 328, 470
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hussar-Blue Sun
+TileSets/FantasyHex/Units/Horseman-Central State
   rotate: false
   xy: 476, 636
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hussar-Central State
+TileSets/FantasyHex/Units/Horseman-Pengutopia
   rotate: false
   xy: 466, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Hussar-Pengutopia
+TileSets/FantasyHex/Units/Hussar-Arkadia
   rotate: false
   xy: 516, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Improved Defensive Unit
+TileSets/FantasyHex/Units/Hussar-Blue Sun
   rotate: false
   xy: 584, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Improved Offensive Unit
-  rotate: false
-  xy: 584, 744
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Infantry-Paradisíaco
+TileSets/FantasyHex/Units/Hussar-Central State
   rotate: false
   xy: 556, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Inferior Defensive Unit
+TileSets/FantasyHex/Units/Hussar-Pengutopia
   rotate: false
   xy: 624, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Inferior Offensive Unit
-  rotate: false
-  xy: 624, 780
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Landing Craft
+TileSets/FantasyHex/Units/Improved Defensive Unit
   rotate: false
   xy: 692, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Light Cavalry-Arkadia
+TileSets/FantasyHex/Units/Improved Offensive Unit
+  rotate: false
+  xy: 692, 852
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Infantry-Paradisíaco
   rotate: false
   xy: 664, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Light Cavalry-Blue Sun
+TileSets/FantasyHex/Units/Inferior Defensive Unit
   rotate: false
   xy: 732, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Light Cavalry-Central State
+TileSets/FantasyHex/Units/Inferior Offensive Unit
+  rotate: false
+  xy: 732, 888
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Landing Craft
   rotate: false
   xy: 800, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Light Cavalry-Pengutopia
+TileSets/FantasyHex/Units/Light Cavalry-Arkadia
   rotate: false
   xy: 772, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Llanero
+TileSets/FantasyHex/Units/Light Cavalry-Blue Sun
   rotate: false
   xy: 840, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Looter-Paradisíaco
+TileSets/FantasyHex/Units/Light Cavalry-Central State
   rotate: false
   xy: 908, 1068
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machete-Arkadia
+TileSets/FantasyHex/Units/Light Cavalry-Pengutopia
   rotate: false
   xy: 880, 1032
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machete-Blue Sun
+TileSets/FantasyHex/Units/Llanero
   rotate: false
   xy: 948, 1104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machete-Central State
+TileSets/FantasyHex/Units/Looter-Paradisíaco
   rotate: false
   xy: 1016, 1176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machete-Pengutopia
+TileSets/FantasyHex/Units/Machete-Arkadia
   rotate: false
   xy: 988, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machine Gun-Arkadia
+TileSets/FantasyHex/Units/Machete-Blue Sun
   rotate: false
   xy: 1056, 1212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machine Gun-Blue Sun
+TileSets/FantasyHex/Units/Machete-Central State
   rotate: false
   xy: 1124, 1284
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machine Gun-Central State
+TileSets/FantasyHex/Units/Machete-Pengutopia
   rotate: false
   xy: 1096, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Machine Gun-Pengutopia
+TileSets/FantasyHex/Units/Machine Gun-Arkadia
   rotate: false
   xy: 1164, 1320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Marksman-Arkadia
+TileSets/FantasyHex/Units/Machine Gun-Blue Sun
   rotate: false
   xy: 1232, 1392
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Marksman-Arkadia
-  rotate: false
-  xy: 1232, 1392
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Marksman-Blue Sun
+TileSets/FantasyHex/Units/Machine Gun-Central State
   rotate: false
   xy: 1204, 1356
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Marksman-Central State
+TileSets/FantasyHex/Units/Machine Gun-Pengutopia
   rotate: false
   xy: 1272, 1428
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Marksman-Pengutopia
+TileSets/FantasyHex/Units/Marksman-Arkadia
   rotate: false
   xy: 1340, 1500
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Militia-Arkadia
+TileSets/FantasyHex/Units/NBC Marksman-Arkadia
+  rotate: false
+  xy: 1340, 1500
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Marksman-Blue Sun
   rotate: false
   xy: 1312, 1464
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Militia-Blue Sun
-  rotate: false
-  xy: 1380, 1536
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Militia-Central State
+TileSets/FantasyHex/Units/Marksman-Central State
   rotate: false
   xy: 1488, 1644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Militia-Paradisíaco
+TileSets/FantasyHex/Units/Marksman-Pengutopia
   rotate: false
   xy: 1528, 1680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Militia-Pengutopia
+TileSets/FantasyHex/Units/Militia-Arkadia
   rotate: false
-  xy: 220, 272
+  xy: 220, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Missile Vehicle-Blue Sun
+TileSets/FantasyHex/Units/Militia-Blue Sun
   rotate: false
   xy: 260, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Missile Vehicle-Central State
+TileSets/FantasyHex/Units/Militia-Central State
   rotate: false
   xy: 328, 434
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Armor-Blue Sun
+TileSets/FantasyHex/Units/Militia-Paradisíaco
   rotate: false
   xy: 516, 636
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Armor-Central State
+TileSets/FantasyHex/Units/Militia-Pengutopia
   rotate: false
   xy: 506, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Infantry-Blue Sun
+TileSets/FantasyHex/Units/Missile Vehicle-Blue Sun
   rotate: false
   xy: 556, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Infantry-Central State
+TileSets/FantasyHex/Units/Missile Vehicle-Central State
   rotate: false
   xy: 624, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Infantry-Pengutopia
+TileSets/FantasyHex/Units/Modern Armor-Blue Sun
   rotate: false
   xy: 596, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mounted Worker-Arkadia
+TileSets/FantasyHex/Units/Modern Armor-Central State
   rotate: false
   xy: 664, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mounted Worker-Blue Sun
+TileSets/FantasyHex/Units/Modern Infantry-Blue Sun
   rotate: false
   xy: 732, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mounted Worker-Central State
+TileSets/FantasyHex/Units/Modern Infantry-Central State
   rotate: false
   xy: 704, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mounted Worker-Pengutopia
+TileSets/FantasyHex/Units/Modern Infantry-Pengutopia
   rotate: false
   xy: 772, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Infantry
+TileSets/FantasyHex/Units/Mounted Worker-Arkadia
   rotate: false
   xy: 840, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Infantry-Blue Sun
+TileSets/FantasyHex/Units/Mounted Worker-Blue Sun
   rotate: false
   xy: 812, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Marksman-Blue Sun
+TileSets/FantasyHex/Units/Mounted Worker-Central State
   rotate: false
   xy: 880, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Marksman-Central State
+TileSets/FantasyHex/Units/Mounted Worker-Pengutopia
   rotate: false
   xy: 948, 1068
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Marksman-Pengutopia
+TileSets/FantasyHex/Units/NBC Infantry
   rotate: false
   xy: 920, 1032
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Nomadic Archer
+TileSets/FantasyHex/Units/NBC Infantry-Blue Sun
   rotate: false
   xy: 988, 1104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Paratrooper-Arkadia
+TileSets/FantasyHex/Units/NBC Marksman-Blue Sun
+  rotate: false
+  xy: 1056, 1176
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NBC Marksman-Central State
   rotate: false
   xy: 1028, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Paratrooper-Blue Sun
+TileSets/FantasyHex/Units/NBC Marksman-Pengutopia
   rotate: false
   xy: 1096, 1212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Paratrooper-Central State
+TileSets/FantasyHex/Units/Nomadic Archer
   rotate: false
   xy: 1164, 1284
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Paratrooper-Pengutopia
+TileSets/FantasyHex/Units/Paratrooper-Arkadia
   rotate: false
-  xy: 1136, 1248
+  xy: 1204, 1320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Raider-Paradisíaco
+TileSets/FantasyHex/Units/Paratrooper-Blue Sun
   rotate: false
   xy: 1272, 1392
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Rifleman-Arkadia
+TileSets/FantasyHex/Units/Paratrooper-Central State
   rotate: false
   xy: 1244, 1356
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Rifleman-Blue Sun
+TileSets/FantasyHex/Units/Paratrooper-Pengutopia
   rotate: false
   xy: 1312, 1428
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Rifleman-Central State
-  rotate: false
-  xy: 1380, 1500
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Rifleman-Pengutopia
-  rotate: false
-  xy: 1352, 1464
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Scout-Arkadia
-  rotate: false
-  xy: 1528, 1644
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Scout-Blue Sun
+TileSets/FantasyHex/Units/Raider-Paradisíaco
   rotate: false
   xy: 1568, 1680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Central State
+TileSets/FantasyHex/Units/Rifleman-Arkadia
   rotate: false
-  xy: 220, 236
+  xy: 220, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Scout-Pengutopia
+TileSets/FantasyHex/Units/Rifleman-Blue Sun
   rotate: false
   xy: 260, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Skirmisher-Arkadia
+TileSets/FantasyHex/Units/Rifleman-Central State
+  rotate: false
+  xy: 556, 636
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Rifleman-Pengutopia
   rotate: false
   xy: 546, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Skirmisher-Blue Sun
+TileSets/FantasyHex/Units/Scout-Arkadia
   rotate: false
   xy: 596, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Skirmisher-Central State
+TileSets/FantasyHex/Units/Scout-Blue Sun
   rotate: false
   xy: 664, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Skirmisher-Pengutopia
+TileSets/FantasyHex/Units/Scout-Central State
   rotate: false
   xy: 636, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Soldier-Blue sun
+TileSets/FantasyHex/Units/Scout-Pengutopia
   rotate: false
   xy: 704, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Soldier-Central State
-  rotate: false
-  xy: 772, 852
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Soldier-Pengutopia
+TileSets/FantasyHex/Units/Skirmisher-Arkadia
   rotate: false
   xy: 744, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Sonic Cannoneer
+TileSets/FantasyHex/Units/Skirmisher-Blue Sun
   rotate: false
   xy: 812, 888
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman-Arkadia
+TileSets/FantasyHex/Units/Skirmisher-Central State
   rotate: false
   xy: 880, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman-Blue Sun
+TileSets/FantasyHex/Units/Skirmisher-Pengutopia
   rotate: false
   xy: 852, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman-Central State
+TileSets/FantasyHex/Units/Soldier-Blue sun
   rotate: false
   xy: 920, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman-Paradisíaco
+TileSets/FantasyHex/Units/Soldier-Central State
   rotate: false
   xy: 988, 1068
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spearman-Pengutopia
+TileSets/FantasyHex/Units/Soldier-Pengutopia
   rotate: false
   xy: 960, 1032
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Spotter
+TileSets/FantasyHex/Units/Sonic Cannoneer
   rotate: false
   xy: 1028, 1104
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Standard Defensive Unit
+TileSets/FantasyHex/Units/Spearman-Arkadia
   rotate: false
   xy: 1096, 1176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Standard Offensive Unit
-  rotate: false
-  xy: 1096, 1176
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Subpar Defensive Unit
+TileSets/FantasyHex/Units/Spearman-Blue Sun
   rotate: false
   xy: 1068, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Subpar Offensive Unit
-  rotate: false
-  xy: 1068, 1140
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Superior Defensive Unit
+TileSets/FantasyHex/Units/Spearman-Central State
   rotate: false
   xy: 1136, 1212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Superior Offensive Unit
-  rotate: false
-  xy: 1136, 1212
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Tank-Blue Sun
+TileSets/FantasyHex/Units/Spearman-Paradisíaco
   rotate: false
   xy: 1204, 1284
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Tank-Central State
+TileSets/FantasyHex/Units/Spotter
   rotate: false
   xy: 1176, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Technical-Blue Sun
+TileSets/FantasyHex/Units/Standard Defensive Unit
   rotate: false
   xy: 1244, 1320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Technical-Central State
+TileSets/FantasyHex/Units/Standard Offensive Unit
+  rotate: false
+  xy: 1244, 1320
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Subpar Defensive Unit
   rotate: false
   xy: 1312, 1392
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Archer
+TileSets/FantasyHex/Units/Subpar Offensive Unit
+  rotate: false
+  xy: 1312, 1392
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Superior Defensive Unit
   rotate: false
   xy: 1284, 1356
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Bow Rider
+TileSets/FantasyHex/Units/Superior Offensive Unit
   rotate: false
-  xy: 1352, 1428
+  xy: 1284, 1356
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Gun Rider
+TileSets/FantasyHex/Units/Tank-Blue Sun
   rotate: false
   xy: 1568, 1644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Gunner
+TileSets/FantasyHex/Units/Tank-Central State
   rotate: false
   xy: 1608, 1680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Rider
+TileSets/FantasyHex/Units/Technical-Blue Sun
   rotate: false
-  xy: 220, 200
+  xy: 220, 204
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Thunderstick
+TileSets/FantasyHex/Units/Technical-Central State
   rotate: false
   xy: 260, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Thunderstick Rider
+TileSets/FantasyHex/Units/Totem Archer
   rotate: false
   xy: 596, 636
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Totem Warrior
+TileSets/FantasyHex/Units/Totem Bow Rider
   rotate: false
   xy: 586, 600
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Arkadia
+TileSets/FantasyHex/Units/Totem Gun Rider
   rotate: false
   xy: 636, 672
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Blue Sun
+TileSets/FantasyHex/Units/Totem Gunner
   rotate: false
   xy: 704, 744
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Central State
+TileSets/FantasyHex/Units/Totem Rider
   rotate: false
   xy: 676, 708
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trooper-Pengutopia
+TileSets/FantasyHex/Units/Totem Thunderstick
   rotate: false
   xy: 744, 780
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ultimate Defensive Unit
+TileSets/FantasyHex/Units/Totem Thunderstick Rider
   rotate: false
   xy: 812, 852
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Ultimate Offensive Unit
+TileSets/FantasyHex/Units/Totem Warrior
   rotate: false
-  xy: 812, 852
+  xy: 784, 816
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Volunteer Reclaimer
+TileSets/FantasyHex/Units/Trooper-Arkadia
+  rotate: false
+  xy: 852, 888
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trooper-Blue Sun
   rotate: false
   xy: 920, 960
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker-Arkadia
+TileSets/FantasyHex/Units/Trooper-Central State
   rotate: false
   xy: 892, 924
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker-Blue Sun
+TileSets/FantasyHex/Units/Trooper-Pengutopia
   rotate: false
   xy: 960, 996
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Worker-Central State
+TileSets/FantasyHex/Units/Ultimate Defensive Unit
   rotate: false
   xy: 1028, 1068
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Ultimate Offensive Unit
+  rotate: false
+  xy: 1028, 1068
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Volunteer Reclaimer
+  rotate: false
+  xy: 1136, 1176
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker-Arkadia
+  rotate: false
+  xy: 1108, 1140
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker-Blue Sun
+  rotate: false
+  xy: 1176, 1212
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker-Central State
+  rotate: false
+  xy: 1244, 1284
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Worker-Pengutopia
   rotate: false
-  xy: 1000, 1032
+  xy: 1216, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
