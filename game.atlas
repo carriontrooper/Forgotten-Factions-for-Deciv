@@ -1558,7 +1558,7 @@ TileSets/FantasyHex/Units/Mounted Worker-Pengutopia
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/NBC Infantry
+TileSets/FantasyHex/Units/NBC Infantry-Pengutopia
   rotate: false
   xy: 920, 1032
   size: 32, 28
