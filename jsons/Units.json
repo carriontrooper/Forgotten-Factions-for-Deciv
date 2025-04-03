@@ -278,7 +278,7 @@
 			"Cannot enter ocean tiles",
 			"Can move after attacking",
 			"Eliminates combat penalty for attacking across a coast",
-			"Defense bonus when embarked",
+			"[+100]% Strength <when defending> <when [Embarked]>",
 			"[+20]% Strength when stacked with [Civilian]",
 			"Transfer Movement to [Civilian]"
 		],
