@@ -633,7 +633,7 @@
 		"cost": 70,
 		"maintenance": 1,
 		"uniques": [
-			"New [Military] units start with [20] Experience [in this city]",
+			"New [Military] units start with [20] XP [in this city]",
 			"[-10]% Production when constructing [Military] units [in this city]",
 			"Destroyed when the city is captured"
 		]
@@ -1414,7 +1414,7 @@
 			"Remove extra unhappiness from annexed cities",
 			"[+10]% Great Person generation [in this city]",
 			"[+25]% Great Person generation [in this city] <after adopting [Supremacy]>",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Civil Service"
@@ -1429,7 +1429,7 @@
 		"requiredTech": "Education",
 		"uniques": [
 			"Only available <in cities with a [Shrine]>",
-			"New [Military] units start with [10] Experience [in this city]",
+			"New [Military] units start with [10] XP [in this city]",
 			"Only available <when religion is enabled>"
 		]
 	},
