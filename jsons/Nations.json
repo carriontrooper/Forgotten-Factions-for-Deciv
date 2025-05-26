@@ -37,6 +37,7 @@
 		"neutralHello": ".",
 		"hateHello": ".",
 
+		"denounced": ".",
 		"tradeRequest": ".",
 
 		"outerColor": [85, 85, 85],
@@ -99,6 +100,7 @@
         "introduction": "Hello, don't fear us. We are the Dandelion tribes and were here for food.",
         "neutralHello": "Hello!",
         "hateHello": "I hate you!",
+	"denounced": "Your words hurt!",
         "tradeRequest": "My mind has said yes.",
 
         "outerColor": [0, 158, 0],
@@ -173,6 +175,7 @@
 		"introduction": "Greetings. I am Nobel, the Chancellor of Elysium, and I hope that I can call you a friend to my nation.",
 		"neutralHello": "Good day.",
 		"hateHello": "Well?",
+		"denounced": "Why are you against true democracy?",
 		"tradeRequest": "Now, on to business then.",
 
         "outerColor": [36, 57, 90],
@@ -254,6 +257,7 @@
         "introduction": "Greetings, consider us representatives of the Confederation",
         "neutralHello": "We always belive in intergovernmental relationships.",
         "hateHello": "You are not welcome here, beware of your actions.",
+	"denounced": "Your words are but a hollow echo in our tunnels.",
         "tradeRequest": "Our Government is disposed to make an exchange...",
         "outerColor": [0,90,145],
         "innerColor": [29,171,88],
@@ -323,6 +327,7 @@
 		"neutralHello": "What brings you here to the Forbidden Palace?",
 		"hateHello": "You rat! I will split your skull in two if you stay any longer! Speak quickly.",
 
+		"denounced": "How dare you speak ill of the Central State! I shall have your tongue cut for this!",
 		"tradeRequest": "The CCP has seen fit to offer you these goods, with a price of course....",
 
 		"outerColor": [226, 0, 41],
@@ -387,6 +392,7 @@
 		"neutralHello": "Chairwoman speaking, how may I help you?",
 		"hateHello": "You may stay here, though I will warn that any sudden movements will trigger the sniper aiming at your forehead.",
 
+		"denounced": "With your words, you are courting death.",
 		"tradeRequest": "Hello! We have gifts for you! There's also other things I want from you too...",
 
 		"outerColor": [0, 33, 185],
@@ -459,6 +465,7 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "Greetings.",
 
+		"denounced": "Your thoughts are in disarray.",
 		"tradeRequest": "We think a trade is in order.",
 
 		"outerColor": [34, 84, 130],
@@ -524,6 +531,7 @@
 		"neutralHello": "What brings you here?",
 		"hateHello": "Speak or be hunted.",
 
+		"denounced": "The little dog barks when the lion roars. This is what I think of you.",
 		"tradeRequest": "We bring goods. Show your hospitality.",
 
 		"outerColor": [94, 73, 13],
@@ -590,6 +598,7 @@
 		"neutralHello": "We welcome you.",
 		"hateHello": "Are you here to surrender?",
 		//"afterPeace": "As a wise man once said: An eye for an eye will only make the whole world blind.",
+		"denounced": "I see the goodwill of the patria is beyond you.",
 		"tradeRequest": "This may help you.",
 
 		"outerColor": [127, 0, 40],
@@ -657,6 +666,7 @@
 		"neutralHello": "Even with all its faults, Earth is really beautiful.",
 		"hateHello": "You're watching us, but you haven't seen a thing.",
 		//"afterPeace": "If the two of us can get along, then perhaps there's hope.",
+		"denounced": "How sad, to not recognize salvation in front of you.",
 		"tradeRequest": "If we stick together, I give you my word. We won't just survive. We'll thrive.",
 
 		"innerColor": [63, 176, 35],
@@ -729,6 +739,7 @@
 		"neutralHello": "Rwr? (Yes?)",
 		"hateHello": "Honk? (What does the monkey want?)",
 		//"afterPeace": "Do you realize now who is superior?",
+		"denounced": "Honk hrr (The monkey think funny. Monkey die someday.)",
 		"tradeRequest": "Wark? (What about this?)",
 
 		"outerColor": [69, 79, 82],
@@ -805,6 +816,7 @@
 		"neutralHello": "Hmm, speak.",
 		"hateHello": "Why are you not dead yet?",
 		//"afterPeace": "",
+		"denounced": "I will have your skull made into a cup for this!",
 		"tradeRequest": "I feel merciful today.",
 
 		"outerColor": [70, 50, 50],
