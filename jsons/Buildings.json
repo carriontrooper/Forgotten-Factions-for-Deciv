@@ -611,7 +611,7 @@
 	                "[+10]% Production when constructing [Armor] units [in capital]",
 	                "[+1 Gold] from each Trade Route", 
 	                "Can only be built <in [Capital] cities>", 
-	                "Only available <in cities without a [Hall Of The People]>", 
+	                "Only available <in cities without a [Hall of the People]>", 
 	                "Destroyed when the city is captured"
 		], 
 		"requiredTech": "Civil Service",
