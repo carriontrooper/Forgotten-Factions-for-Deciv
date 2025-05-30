@@ -677,7 +677,7 @@
 			"[-20]% growth [in all cities]",
 			"[+15]% Strength <vs [Barbarian] units>",
         		"[+15]% Strength <vs [Low Tech] units>",
-			"[+30]% Strength <vs [City-states] units>",
+			"[+30]% Strength <vs [City-State] units>",
         		"Starts with [Construction]"
                 ],
 		"cities": [
