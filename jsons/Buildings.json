@@ -1190,7 +1190,7 @@
                 "replaces": "Council",
 		"cost": 50,
 		"uniques": [
-			"Double quantity of [Oil] produced",
+			"[100]% [Oil] resource production",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
                         "[-25]% maintenance costs <for [All] units>",
                         "[+1] Sight <for [All] units>",
