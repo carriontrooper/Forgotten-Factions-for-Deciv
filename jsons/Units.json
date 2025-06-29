@@ -279,7 +279,7 @@
 			"Can move after attacking",
 			"Eliminates combat penalty for attacking across a coast",
 			"[+100]% Strength <when defending> <when [Embarked]>",
-			"[+20]% Strength when stacked with [Civilian]",
+			"[+20]% Strength <when stacked with a [Civilian] unit>",
 			"Transfer Movement to [Civilian]"
 		],
 		"attackSound": "shot"
