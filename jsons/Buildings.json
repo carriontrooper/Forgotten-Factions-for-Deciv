@@ -354,7 +354,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"Comment [Replaces Prison Camp without being treated as Prison Camp]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Only available <in cities with a [Stele of Constitution]>",
 			"Destroyed when the city is captured"
 		],
@@ -386,7 +386,7 @@
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[-20]% enemy spy effectiveness [in this city]",
 			"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured",
@@ -579,7 +579,7 @@
 	                "Only available <in cities without a [Listening Post]>", 
 	                "Destroyed when the city is captured", 
 	                "Can only be built <in [Annexed] cities>", 
-	                "Remove extra unhappiness from annexed cities", 
+	                "Removes extra unhappiness from annexed cities", 
 	                "[+1 Science] per [3] population [in this city]"
 		], 
 		"requiredTech": "Construction"
@@ -761,7 +761,7 @@
 		"food": -1,
 		"cost": 20,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
 			"Can only be built <with [Slaves]>",
 			"[+1 Production] per [3] population [in this city]",
@@ -780,7 +780,7 @@
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[-35]% enemy spy effectiveness [in this city]",
 			"Only available <in cities without a [Assimilate Slaves]>",
 			"Destroyed when the city is captured",
@@ -894,7 +894,7 @@
 		"uniques": [
 			"Totem",
 			"All newly-trained [Military] units [in this city] receive the [Ghillie Suit] promotion",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[+20]% spy effectiveness [in this city]",
 			"[-25]% enemy spy effectiveness [in this city]",
 			"Only available <in cities without a [Prison Camp]>",
@@ -1411,7 +1411,7 @@
 	        "culture": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[+10]% Great Person generation [in this city]",
 			"[+25]% Great Person generation [in this city] <after adopting [Supremacy]>",
 			"New [Military] units start with [15] XP [in this city]",
