@@ -341,6 +341,7 @@
 		//"style": "",
 		"uniqueName": "Unity Under the Iron Fist",
 		"uniques": [
+			"Chinese Unifier",
 			"[+20]% Production when constructing [Military] units [in all cities]",
 			"[+1] Unit Supply per [3] population [in all cities]",
 			"[15]% growth [in capital]",
@@ -407,6 +408,7 @@
 		//"style": "",
 		"uniqueName": "Third Northern Expedition",
 		"uniques": [
+			"Chinese Unifier",
 			"[+20]% Strength <for [non-[Low Tech]] units>",
 			"[-20]% Strength <for [Low Tech] units>",
             "[-1] Unit Supply per [4] population [in all cities]",
@@ -683,13 +685,13 @@
 		"outerColor": [24, 52, 102],
 		//"style": "Arkadio",
 		"uniqueName": "From the Stars",
-                "uniques": [
+        "uniques": [
 			"[-20]% growth [in all cities]",
 			"[+15]% Strength <vs [Barbarian] units>",
-        		"[+15]% Strength <vs [Low Tech] units>",
+        	"[+15]% Strength <vs [Low Tech] units>",
 			"[+30]% Strength <vs [City-State] units>",
-        		"Starts with [Construction]"
-                ],
+        	"Starts with [Construction]"
+        ],
 		"cities": [
 			"Alpha Site",
 			"Bravo Site",
