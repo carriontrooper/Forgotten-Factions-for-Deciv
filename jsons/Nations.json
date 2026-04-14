@@ -112,6 +112,13 @@
 	"declaringFriendship": "You. Me. Friends. NOW.",
         "tradeRequest": "My mind has said yes.",
 
+		"neutralDenouncing": "The voices say you scary.",
+		"hateDenouncing": "Feeling kind of BLOOD SPILL just seeing you....",
+		
+		"acceptingDemand": "Ooh! Okay.",
+		"neutralRejectingDemand": "Mmmm, naaaah.",
+		"hateRejectingDemand": "Nooo!",
+
         "outerColor": [0, 158, 0],
         "innerColor": [245, 208, 0],
         "uniqueName": "Land of the Dandelion Eaters",
@@ -187,6 +194,13 @@
 		"denounced": "Why are you against true democracy?",
 		"declaringFriendship": "Your existence brings hope to the wasteland.",
 		"tradeRequest": "Now, on to business then.",
+
+		"neutralDenouncing": "The people of Elysium has voiced their concerns about you. Let us cut ties, for the time being.",
+		"hateDenouncing": "It is sad to see you turn your back on Democracy and humanity.",
+		
+		"acceptingDemand": "To this, I agree.",
+		"neutralRejectingDemand": "Nay, I say.",
+		"hateRejectingDemand": "Let it be known that Elysium shall not bow before such provocation.",
 
         "outerColor": [36, 57, 90],
         "innerColor": [255, 255, 255],
@@ -270,6 +284,14 @@
 	"denounced": "Your words are but a hollow echo in our tunnels.",
 	"declaringFriendship": "We think your actions are like a light in the darkness.",
         "tradeRequest": "Our Government is disposed to make an exchange...",
+
+		"neutralDenouncing": "Your deeds echo in our tunnels - and they don't sound good to us.",
+		"hateDenouncing": "Never have I seen such inept government than in yours, with your people more in the dark than ours.",
+		
+		"acceptingDemand": "Agreed, a strong one, this is.",
+		"neutralRejectingDemand": "Not structurally sound enough.",
+		"hateRejectingDemand": "We live in the dark tunnels, and even we can see that this is not fair.",
+		
         "outerColor": [0,90,145],
         "innerColor": [29,171,88],
         "uniqueName": "Underground People",
@@ -332,7 +354,7 @@
 		"declaringWar": "Sadly, you were just in the way of the reunification of China. And for that, you must die.",
 		"attacked": "To arms, men! We will push these invaders out of our land!",
 		"defeated": "The capital! My nation! My plans of reunification... Was it all for nothing?",
-		"afterPeace": "An offer of a temporary truce, I have other things to tend to.",
+		//"afterPeace": "An offer of a temporary truce, I have other things to tend to.",
 		"introduction": "Greetings, are friend or foe? We shall see, so long as you do not interfere with our plan to reunify China, we may come to an agreement.",
 
 		"neutralHello": "What brings you here to the Forbidden Palace?",
@@ -340,7 +362,14 @@
 
 		"denounced": "How dare you speak ill of the Central State! I shall have your tongue cut for this!",
 		"declaringFriendship": "The Central State considers you as a very useful friend.",
-		"tradeRequest": "The CCP has seen fit to offer you these goods, with a price of course....",
+		"tradeRequest": "The CCP has seen fit to offer you these goods, with a price of course...",
+
+		"neutralDenouncing": "You have lost too much social credit points with the CCP, so we must cut down on your diplomatic privileges.",
+		"hateDenouncing": "The CCP considers your existence to be an annoying thorn on its side. Go on, get lost.",
+		
+		"acceptingDemand": "The CCP agrees to your demand.",
+		"neutralRejectingDemand": "The CCP rejects your demand.",
+		"hateRejectingDemand": "Why would you think the CCP would accept this? Denied!",
 
 		"outerColor": [226, 0, 41],
 		"innerColor": [255, 236, 112],
@@ -399,7 +428,7 @@
 		"declaringWar": "You are but a bug standing in the way of reunification. Surrender now before my Elite Corps come to crush you.",
 		"attacked": "Fiend! You will be crushed under my boot, in the name of China, you shall be destroyed!",
 		"defeated": "Impossible... You managed to defeat my elite soldiers? Heh, China will be doomed to a hundred years of crisis thanks to you...",
-		"afterPeace": "This war has developed quite terribly I would say, how about a temporary truce?",
+		//"afterPeace": "This war has developed quite terribly I would say, how about a temporary truce?",
 		"introduction": "Hello! This is Zhu Li Xin! Chairwoman of the Kuomintang, let's cleanse this wasteland of barbarians and raiders first before we resort to drastic measures alright?",
 
 		"neutralHello": "Chairwoman speaking, how may I help you?",
@@ -408,6 +437,13 @@
 		"denounced": "With your words, you are courting death.",
 		"declaringFriendship": "Hmm, I see your civilization is a friend of the Kuomintang.",
 		"tradeRequest": "Hello! We have gifts for you! There's also other things I want from you too...",
+
+		"neutralDenouncing": "You are no longer considered as a friend to the Kuomintang.",
+		"hateDenouncing": "You collaborator to the enemy! You are like a frog in a well, challenging a thunderstorm.",
+		
+		"acceptingDemand": "Hmm, this is good, I agree.",
+		"neutralRejectingDemand": "Hmm, this is not good enough.",
+		"hateRejectingDemand": "This would be detrimental to our cause.",
 
 		"outerColor": [0, 33, 185],
 		"innerColor": [255, 255, 255],
@@ -484,6 +520,13 @@
 		"declaringFriendship": "We think linking with you is a good idea.",
 		"tradeRequest": "We think a trade is in order.",
 
+		"neutralDenouncing": "We think you are not ready for the Gestalt.",
+		"hateDenouncing": "Your thoughts are most sickening. We await for it to be silenced, one way or another.",
+		
+		"acceptingDemand": "We unanimously agree to this.",
+		"neutralRejectingDemand": "We unanimously deny this.",
+		"hateRejectingDemand": "We unanimously deny this.",
+
 		"outerColor": [34, 84, 130],
 		"innerColor": [238, 176, 255],
 		"favoredReligion": "The Gestalt", //gotta make one
@@ -550,6 +593,13 @@
 		"denounced": "The little dog barks when the lion roars. This is what I think of you.",
 		"declaringFriendship": "Us together, strong!",
 		"tradeRequest": "We bring goods. Show your hospitality.",
+
+		"neutralDenouncing": "The shamans say you are no longer friends with us. So be it.",
+		"hateDenouncing": "What pitiful spirits you have! Your totems fail you, while ours grow stronger!",
+		
+		"acceptingDemand": "Good, good.",
+		"neutralRejectingDemand": "No. Bad.",
+		"hateRejectingDemand": "You insult the spirits!",
 
 		"outerColor": [94, 73, 13],
 		"innerColor": [255, 133, 25],
@@ -619,6 +669,13 @@
 		"declaringFriendship": "The patria shall help you like you have helped us before.",
 		"tradeRequest": "This may help you.",
 
+		"neutralDenouncing": "As much as it pains me to say this, the patria no longer considers you a friend.",
+		"hateDenouncing": "Such a pity. You cannot reach the goodwill of the patria anymore.",
+		
+		"acceptingDemand": "By the will of the patria, let it be so.",
+		"neutralRejectingDemand": "The patria do not agree.",
+		"hateRejectingDemand": "The patria cannot condone this in any way.",
+
 		"outerColor": [127, 0, 40],
 		"innerColor": [245, 217, 0],
 		"style": "Paradisíaco",
@@ -687,6 +744,13 @@
 		"denounced": "How sad, to not recognize salvation in front of you.",
 		"declaringFriendship": "Looking at you, there is hope for the Earth yet.",
 		"tradeRequest": "If we stick together, I give you my word. We won't just survive. We'll thrive.",
+
+		"neutralDenouncing": "We no longer think your civilization aligns with ours.",
+		"hateDenouncing": "Such low depths of barbarity you've fallen into - it makes us lose our hope in the rest of humanity.",
+		
+		"acceptingDemand": "Very well, we agree.",
+		"neutralRejectingDemand": "This do not align with our interests.",
+		"hateRejectingDemand": "This will crash and burn sooner than later.",
 
 		"innerColor": [63, 176, 35],
 		"outerColor": [24, 52, 102],
@@ -761,6 +825,13 @@
 		"denounced": "Honk hrr (The monkey think funny. Monkey die someday.)",
 		"declaringFriendship": "Pwee prr prr (You good to us, monkey get to live.).",
 		"tradeRequest": "Wark? (What about this?)",
+
+		"neutralDenouncing": "Kieehk. (Monkey not have more fish.)",
+		"hateDenouncing": "Kehk, kiehk! (Monkey stinky, worse than rotting fish!)",
+		
+		"acceptingDemand": "Wark wark. (Yes, good.)",
+		"neutralRejectingDemand": "Wark noot. (No, bad.)",
+		"hateRejectingDemand": "Wark kiehk. (Monkey cannot deceive penguin, rejected.)",
 
 		"outerColor": [69, 79, 82],
 		"innerColor": [176, 213, 255],
@@ -839,6 +910,13 @@
 		"denounced": "I will have your skull made into a cup for this!",
 		"declaringFriendship": "I extend my mercy to you.",
 		"tradeRequest": "I feel merciful today.",
+
+		"neutralDenouncing": "I, Wirapocha, no longer find you interesting to spare.",
+		"hateDenouncing": "I long for the day I can throw you from the sacrificial peaks personally!",
+		
+		"acceptingDemand": "I deem this agreeable.",
+		"neutralRejectingDemand": "This do not interest me.",
+		"hateRejectingDemand": "This is an insult to me.",
 
 		"outerColor": [70, 50, 50],
 		"innerColor": [195,22,22],
